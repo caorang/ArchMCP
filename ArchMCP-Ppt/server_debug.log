@@ -1,0 +1,81 @@
+2025-11-25 16:53:18,686 - INFO - Starting server initialization...
+2025-11-25 16:53:18,686 - INFO - Added ArchMCP-Common to path
+2025-11-25 16:53:19,263 - INFO - Imported MCP and pptx modules
+2025-11-25 16:53:19,452 - INFO - Imported ArchMCP-Common modules
+2025-11-25 16:53:19,454 - INFO - Imported file_server
+2025-11-25 16:53:19,454 - DEBUG - Initializing server 'aws-arch-ppt'
+2025-11-25 16:53:19,454 - INFO - Created MCP Server
+2025-11-25 16:53:19,457 - DEBUG - Registering handler for ListToolsRequest
+2025-11-25 16:53:19,457 - DEBUG - Registering handler for CallToolRequest
+2025-11-25 16:53:19,457 - INFO - Running main()
+2025-11-25 16:53:19,457 - DEBUG - Using selector: KqueueSelector
+2025-11-25 16:53:19,457 - INFO - Starting MCP server...
+2025-11-25 16:53:19,461 - INFO - stdio_server initialized
+2025-11-25 16:53:19,463 - DEBUG - Received message: 11 validation errors for JSONRPCMessage
+JSONRPCRequest.method
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCRequest.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCRequest.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCNotification.method
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCNotification.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.result
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.error
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-25 16:53:19,464 - ERROR - Received exception from stream: 11 validation errors for JSONRPCMessage
+JSONRPCRequest.method
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCRequest.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCRequest.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCNotification.method
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCNotification.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCResponse.result
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.jsonrpc
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.id
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+JSONRPCError.error
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing

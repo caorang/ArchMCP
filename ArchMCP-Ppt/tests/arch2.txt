@@ -1,0 +1,6 @@
+
+    Amazon Route 53 (optional) manages custom domain routing, allowing clients to access the gateway through a company-specific endpoint instead of the default Amazon API Gateway domain.
+    Amazon API Gateway serves as the entry point for the requests and provides capabilities like authorization, request throttling, and lifecycle management.
+    AWS Lambda authorizer handles request authorization, which in the Dynatrace implementation involves validating JWT tokens with existing authentication systems. For your specific implementation, you can implement your own authorization logic in a Lambda authorizer, integrate with Amazon Cognito user pools, or use other API Gateway authorization mechanisms.
+    Lambda integration is a dynamic request forwarder that signs incoming requests with AWS credentials and routes them to the appropriate Amazon Bedrock endpoints. The function preserves the original request details, including the API action and parameters, to support current or future Amazon Bedrock APIs without code changes. The complete implementation is available in the integration Lambda function.
+    Amazon Bedrock provides access to foundation models and AI capabilities.

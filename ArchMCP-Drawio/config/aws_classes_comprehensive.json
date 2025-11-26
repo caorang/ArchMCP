@@ -1,0 +1,3549 @@
+{
+  "metadata": {
+    "total_classes": 576,
+    "total_mappings": 606,
+    "total_modules": 26
+  },
+  "modules": {
+    "analytics": [
+      {
+        "class_name": "AmazonOpensearchService",
+        "import_statement": "from diagrams.aws.analytics import AmazonOpensearchService",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Analytics",
+        "import_statement": "from diagrams.aws.analytics import Analytics",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Athena",
+        "import_statement": "from diagrams.aws.analytics import Athena",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Cloudsearch",
+        "import_statement": "from diagrams.aws.analytics import Cloudsearch",
+        "module": "analytics"
+      },
+      {
+        "class_name": "CloudsearchSearchDocuments",
+        "import_statement": "from diagrams.aws.analytics import CloudsearchSearchDocuments",
+        "module": "analytics"
+      },
+      {
+        "class_name": "DataLakeResource",
+        "import_statement": "from diagrams.aws.analytics import DataLakeResource",
+        "module": "analytics"
+      },
+      {
+        "class_name": "DataPipeline",
+        "import_statement": "from diagrams.aws.analytics import DataPipeline",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMR",
+        "import_statement": "from diagrams.aws.analytics import EMR",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMRCluster",
+        "import_statement": "from diagrams.aws.analytics import EMRCluster",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMREngine",
+        "import_statement": "from diagrams.aws.analytics import EMREngine",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMREngineMaprM3",
+        "import_statement": "from diagrams.aws.analytics import EMREngineMaprM3",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMREngineMaprM5",
+        "import_statement": "from diagrams.aws.analytics import EMREngineMaprM5",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMREngineMaprM7",
+        "import_statement": "from diagrams.aws.analytics import EMREngineMaprM7",
+        "module": "analytics"
+      },
+      {
+        "class_name": "EMRHdfsCluster",
+        "import_statement": "from diagrams.aws.analytics import EMRHdfsCluster",
+        "module": "analytics"
+      },
+      {
+        "class_name": "ES",
+        "import_statement": "from diagrams.aws.analytics import ES",
+        "module": "analytics"
+      },
+      {
+        "class_name": "ElasticsearchService",
+        "import_statement": "from diagrams.aws.analytics import ElasticsearchService",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Glue",
+        "import_statement": "from diagrams.aws.analytics import Glue",
+        "module": "analytics"
+      },
+      {
+        "class_name": "GlueCrawlers",
+        "import_statement": "from diagrams.aws.analytics import GlueCrawlers",
+        "module": "analytics"
+      },
+      {
+        "class_name": "GlueDataCatalog",
+        "import_statement": "from diagrams.aws.analytics import GlueDataCatalog",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Kinesis",
+        "import_statement": "from diagrams.aws.analytics import Kinesis",
+        "module": "analytics"
+      },
+      {
+        "class_name": "KinesisDataAnalytics",
+        "import_statement": "from diagrams.aws.analytics import KinesisDataAnalytics",
+        "module": "analytics"
+      },
+      {
+        "class_name": "KinesisDataFirehose",
+        "import_statement": "from diagrams.aws.analytics import KinesisDataFirehose",
+        "module": "analytics"
+      },
+      {
+        "class_name": "KinesisDataStreams",
+        "import_statement": "from diagrams.aws.analytics import KinesisDataStreams",
+        "module": "analytics"
+      },
+      {
+        "class_name": "KinesisVideoStreams",
+        "import_statement": "from diagrams.aws.analytics import KinesisVideoStreams",
+        "module": "analytics"
+      },
+      {
+        "class_name": "LakeFormation",
+        "import_statement": "from diagrams.aws.analytics import LakeFormation",
+        "module": "analytics"
+      },
+      {
+        "class_name": "ManagedStreamingForKafka",
+        "import_statement": "from diagrams.aws.analytics import ManagedStreamingForKafka",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Quicksight",
+        "import_statement": "from diagrams.aws.analytics import Quicksight",
+        "module": "analytics"
+      },
+      {
+        "class_name": "Redshift",
+        "import_statement": "from diagrams.aws.analytics import Redshift",
+        "module": "analytics"
+      },
+      {
+        "class_name": "RedshiftDenseComputeNode",
+        "import_statement": "from diagrams.aws.analytics import RedshiftDenseComputeNode",
+        "module": "analytics"
+      },
+      {
+        "class_name": "RedshiftDenseStorageNode",
+        "import_statement": "from diagrams.aws.analytics import RedshiftDenseStorageNode",
+        "module": "analytics"
+      },
+      {
+        "class_name": "_Analytics",
+        "import_statement": "from diagrams.aws.analytics import _Analytics",
+        "module": "analytics"
+      }
+    ],
+    "ar": [
+      {
+        "class_name": "ArVr",
+        "import_statement": "from diagrams.aws.ar import ArVr",
+        "module": "ar"
+      },
+      {
+        "class_name": "Sumerian",
+        "import_statement": "from diagrams.aws.ar import Sumerian",
+        "module": "ar"
+      },
+      {
+        "class_name": "_Ar",
+        "import_statement": "from diagrams.aws.ar import _Ar",
+        "module": "ar"
+      }
+    ],
+    "blockchain": [
+      {
+        "class_name": "Blockchain",
+        "import_statement": "from diagrams.aws.blockchain import Blockchain",
+        "module": "blockchain"
+      },
+      {
+        "class_name": "BlockchainResource",
+        "import_statement": "from diagrams.aws.blockchain import BlockchainResource",
+        "module": "blockchain"
+      },
+      {
+        "class_name": "ManagedBlockchain",
+        "import_statement": "from diagrams.aws.blockchain import ManagedBlockchain",
+        "module": "blockchain"
+      },
+      {
+        "class_name": "QLDB",
+        "import_statement": "from diagrams.aws.blockchain import QLDB",
+        "module": "blockchain"
+      },
+      {
+        "class_name": "QuantumLedgerDatabaseQldb",
+        "import_statement": "from diagrams.aws.blockchain import QuantumLedgerDatabaseQldb",
+        "module": "blockchain"
+      },
+      {
+        "class_name": "_Blockchain",
+        "import_statement": "from diagrams.aws.blockchain import _Blockchain",
+        "module": "blockchain"
+      }
+    ],
+    "business": [
+      {
+        "class_name": "A4B",
+        "import_statement": "from diagrams.aws.business import A4B",
+        "module": "business"
+      },
+      {
+        "class_name": "AlexaForBusiness",
+        "import_statement": "from diagrams.aws.business import AlexaForBusiness",
+        "module": "business"
+      },
+      {
+        "class_name": "BusinessApplications",
+        "import_statement": "from diagrams.aws.business import BusinessApplications",
+        "module": "business"
+      },
+      {
+        "class_name": "Chime",
+        "import_statement": "from diagrams.aws.business import Chime",
+        "module": "business"
+      },
+      {
+        "class_name": "Workmail",
+        "import_statement": "from diagrams.aws.business import Workmail",
+        "module": "business"
+      },
+      {
+        "class_name": "_Business",
+        "import_statement": "from diagrams.aws.business import _Business",
+        "module": "business"
+      }
+    ],
+    "compute": [
+      {
+        "class_name": "AMI",
+        "import_statement": "from diagrams.aws.compute import AMI",
+        "module": "compute"
+      },
+      {
+        "class_name": "AppRunner",
+        "import_statement": "from diagrams.aws.compute import AppRunner",
+        "module": "compute"
+      },
+      {
+        "class_name": "ApplicationAutoScaling",
+        "import_statement": "from diagrams.aws.compute import ApplicationAutoScaling",
+        "module": "compute"
+      },
+      {
+        "class_name": "AutoScaling",
+        "import_statement": "from diagrams.aws.compute import AutoScaling",
+        "module": "compute"
+      },
+      {
+        "class_name": "Batch",
+        "import_statement": "from diagrams.aws.compute import Batch",
+        "module": "compute"
+      },
+      {
+        "class_name": "Compute",
+        "import_statement": "from diagrams.aws.compute import Compute",
+        "module": "compute"
+      },
+      {
+        "class_name": "ComputeOptimizer",
+        "import_statement": "from diagrams.aws.compute import ComputeOptimizer",
+        "module": "compute"
+      },
+      {
+        "class_name": "EB",
+        "import_statement": "from diagrams.aws.compute import EB",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2",
+        "import_statement": "from diagrams.aws.compute import EC2",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2Ami",
+        "import_statement": "from diagrams.aws.compute import EC2Ami",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2AutoScaling",
+        "import_statement": "from diagrams.aws.compute import EC2AutoScaling",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2ContainerRegistry",
+        "import_statement": "from diagrams.aws.compute import EC2ContainerRegistry",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2ContainerRegistryImage",
+        "import_statement": "from diagrams.aws.compute import EC2ContainerRegistryImage",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2ContainerRegistryRegistry",
+        "import_statement": "from diagrams.aws.compute import EC2ContainerRegistryRegistry",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2ElasticIpAddress",
+        "import_statement": "from diagrams.aws.compute import EC2ElasticIpAddress",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2ImageBuilder",
+        "import_statement": "from diagrams.aws.compute import EC2ImageBuilder",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2Instance",
+        "import_statement": "from diagrams.aws.compute import EC2Instance",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2Instances",
+        "import_statement": "from diagrams.aws.compute import EC2Instances",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2Rescue",
+        "import_statement": "from diagrams.aws.compute import EC2Rescue",
+        "module": "compute"
+      },
+      {
+        "class_name": "EC2SpotInstance",
+        "import_statement": "from diagrams.aws.compute import EC2SpotInstance",
+        "module": "compute"
+      },
+      {
+        "class_name": "ECR",
+        "import_statement": "from diagrams.aws.compute import ECR",
+        "module": "compute"
+      },
+      {
+        "class_name": "ECS",
+        "import_statement": "from diagrams.aws.compute import ECS",
+        "module": "compute"
+      },
+      {
+        "class_name": "EKS",
+        "import_statement": "from diagrams.aws.compute import EKS",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticBeanstalk",
+        "import_statement": "from diagrams.aws.compute import ElasticBeanstalk",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticBeanstalkApplication",
+        "import_statement": "from diagrams.aws.compute import ElasticBeanstalkApplication",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticBeanstalkDeployment",
+        "import_statement": "from diagrams.aws.compute import ElasticBeanstalkDeployment",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticContainerService",
+        "import_statement": "from diagrams.aws.compute import ElasticContainerService",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticContainerServiceContainer",
+        "import_statement": "from diagrams.aws.compute import ElasticContainerServiceContainer",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticContainerServiceService",
+        "import_statement": "from diagrams.aws.compute import ElasticContainerServiceService",
+        "module": "compute"
+      },
+      {
+        "class_name": "ElasticKubernetesService",
+        "import_statement": "from diagrams.aws.compute import ElasticKubernetesService",
+        "module": "compute"
+      },
+      {
+        "class_name": "Fargate",
+        "import_statement": "from diagrams.aws.compute import Fargate",
+        "module": "compute"
+      },
+      {
+        "class_name": "Lambda",
+        "import_statement": "from diagrams.aws.compute import Lambda",
+        "module": "compute"
+      },
+      {
+        "class_name": "LambdaFunction",
+        "import_statement": "from diagrams.aws.compute import LambdaFunction",
+        "module": "compute"
+      },
+      {
+        "class_name": "Lightsail",
+        "import_statement": "from diagrams.aws.compute import Lightsail",
+        "module": "compute"
+      },
+      {
+        "class_name": "LocalZones",
+        "import_statement": "from diagrams.aws.compute import LocalZones",
+        "module": "compute"
+      },
+      {
+        "class_name": "Outposts",
+        "import_statement": "from diagrams.aws.compute import Outposts",
+        "module": "compute"
+      },
+      {
+        "class_name": "SAR",
+        "import_statement": "from diagrams.aws.compute import SAR",
+        "module": "compute"
+      },
+      {
+        "class_name": "ServerlessApplicationRepository",
+        "import_statement": "from diagrams.aws.compute import ServerlessApplicationRepository",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxDeadline",
+        "import_statement": "from diagrams.aws.compute import ThinkboxDeadline",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxDraft",
+        "import_statement": "from diagrams.aws.compute import ThinkboxDraft",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxFrost",
+        "import_statement": "from diagrams.aws.compute import ThinkboxFrost",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxKrakatoa",
+        "import_statement": "from diagrams.aws.compute import ThinkboxKrakatoa",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxSequoia",
+        "import_statement": "from diagrams.aws.compute import ThinkboxSequoia",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxStoke",
+        "import_statement": "from diagrams.aws.compute import ThinkboxStoke",
+        "module": "compute"
+      },
+      {
+        "class_name": "ThinkboxXmesh",
+        "import_statement": "from diagrams.aws.compute import ThinkboxXmesh",
+        "module": "compute"
+      },
+      {
+        "class_name": "VmwareCloudOnAWS",
+        "import_statement": "from diagrams.aws.compute import VmwareCloudOnAWS",
+        "module": "compute"
+      },
+      {
+        "class_name": "Wavelength",
+        "import_statement": "from diagrams.aws.compute import Wavelength",
+        "module": "compute"
+      },
+      {
+        "class_name": "_Compute",
+        "import_statement": "from diagrams.aws.compute import _Compute",
+        "module": "compute"
+      }
+    ],
+    "cost": [
+      {
+        "class_name": "Budgets",
+        "import_statement": "from diagrams.aws.cost import Budgets",
+        "module": "cost"
+      },
+      {
+        "class_name": "CostAndUsageReport",
+        "import_statement": "from diagrams.aws.cost import CostAndUsageReport",
+        "module": "cost"
+      },
+      {
+        "class_name": "CostExplorer",
+        "import_statement": "from diagrams.aws.cost import CostExplorer",
+        "module": "cost"
+      },
+      {
+        "class_name": "CostManagement",
+        "import_statement": "from diagrams.aws.cost import CostManagement",
+        "module": "cost"
+      },
+      {
+        "class_name": "ReservedInstanceReporting",
+        "import_statement": "from diagrams.aws.cost import ReservedInstanceReporting",
+        "module": "cost"
+      },
+      {
+        "class_name": "SavingsPlans",
+        "import_statement": "from diagrams.aws.cost import SavingsPlans",
+        "module": "cost"
+      },
+      {
+        "class_name": "_Cost",
+        "import_statement": "from diagrams.aws.cost import _Cost",
+        "module": "cost"
+      }
+    ],
+    "database": [
+      {
+        "class_name": "Aurora",
+        "import_statement": "from diagrams.aws.database import Aurora",
+        "module": "database"
+      },
+      {
+        "class_name": "AuroraInstance",
+        "import_statement": "from diagrams.aws.database import AuroraInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "DAX",
+        "import_statement": "from diagrams.aws.database import DAX",
+        "module": "database"
+      },
+      {
+        "class_name": "DB",
+        "import_statement": "from diagrams.aws.database import DB",
+        "module": "database"
+      },
+      {
+        "class_name": "DDB",
+        "import_statement": "from diagrams.aws.database import DDB",
+        "module": "database"
+      },
+      {
+        "class_name": "DMS",
+        "import_statement": "from diagrams.aws.database import DMS",
+        "module": "database"
+      },
+      {
+        "class_name": "Database",
+        "import_statement": "from diagrams.aws.database import Database",
+        "module": "database"
+      },
+      {
+        "class_name": "DatabaseMigrationService",
+        "import_statement": "from diagrams.aws.database import DatabaseMigrationService",
+        "module": "database"
+      },
+      {
+        "class_name": "DatabaseMigrationServiceDatabaseMigrationWorkflow",
+        "import_statement": "from diagrams.aws.database import DatabaseMigrationServiceDatabaseMigrationWorkflow",
+        "module": "database"
+      },
+      {
+        "class_name": "DocumentDB",
+        "import_statement": "from diagrams.aws.database import DocumentDB",
+        "module": "database"
+      },
+      {
+        "class_name": "DocumentdbMongodbCompatibility",
+        "import_statement": "from diagrams.aws.database import DocumentdbMongodbCompatibility",
+        "module": "database"
+      },
+      {
+        "class_name": "Dynamodb",
+        "import_statement": "from diagrams.aws.database import Dynamodb",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbAttribute",
+        "import_statement": "from diagrams.aws.database import DynamodbAttribute",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbAttributes",
+        "import_statement": "from diagrams.aws.database import DynamodbAttributes",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbDax",
+        "import_statement": "from diagrams.aws.database import DynamodbDax",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbGSI",
+        "import_statement": "from diagrams.aws.database import DynamodbGSI",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbGlobalSecondaryIndex",
+        "import_statement": "from diagrams.aws.database import DynamodbGlobalSecondaryIndex",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbItem",
+        "import_statement": "from diagrams.aws.database import DynamodbItem",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbItems",
+        "import_statement": "from diagrams.aws.database import DynamodbItems",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbStreams",
+        "import_statement": "from diagrams.aws.database import DynamodbStreams",
+        "module": "database"
+      },
+      {
+        "class_name": "DynamodbTable",
+        "import_statement": "from diagrams.aws.database import DynamodbTable",
+        "module": "database"
+      },
+      {
+        "class_name": "ElastiCache",
+        "import_statement": "from diagrams.aws.database import ElastiCache",
+        "module": "database"
+      },
+      {
+        "class_name": "Elasticache",
+        "import_statement": "from diagrams.aws.database import Elasticache",
+        "module": "database"
+      },
+      {
+        "class_name": "ElasticacheCacheNode",
+        "import_statement": "from diagrams.aws.database import ElasticacheCacheNode",
+        "module": "database"
+      },
+      {
+        "class_name": "ElasticacheForMemcached",
+        "import_statement": "from diagrams.aws.database import ElasticacheForMemcached",
+        "module": "database"
+      },
+      {
+        "class_name": "ElasticacheForRedis",
+        "import_statement": "from diagrams.aws.database import ElasticacheForRedis",
+        "module": "database"
+      },
+      {
+        "class_name": "KeyspacesManagedApacheCassandraService",
+        "import_statement": "from diagrams.aws.database import KeyspacesManagedApacheCassandraService",
+        "module": "database"
+      },
+      {
+        "class_name": "Neptune",
+        "import_statement": "from diagrams.aws.database import Neptune",
+        "module": "database"
+      },
+      {
+        "class_name": "QLDB",
+        "import_statement": "from diagrams.aws.database import QLDB",
+        "module": "database"
+      },
+      {
+        "class_name": "QuantumLedgerDatabaseQldb",
+        "import_statement": "from diagrams.aws.database import QuantumLedgerDatabaseQldb",
+        "module": "database"
+      },
+      {
+        "class_name": "RDS",
+        "import_statement": "from diagrams.aws.database import RDS",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSInstance",
+        "import_statement": "from diagrams.aws.database import RDSInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSMariadbInstance",
+        "import_statement": "from diagrams.aws.database import RDSMariadbInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSMysqlInstance",
+        "import_statement": "from diagrams.aws.database import RDSMysqlInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSOnVmware",
+        "import_statement": "from diagrams.aws.database import RDSOnVmware",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSOracleInstance",
+        "import_statement": "from diagrams.aws.database import RDSOracleInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSPostgresqlInstance",
+        "import_statement": "from diagrams.aws.database import RDSPostgresqlInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "RDSSqlServerInstance",
+        "import_statement": "from diagrams.aws.database import RDSSqlServerInstance",
+        "module": "database"
+      },
+      {
+        "class_name": "Redshift",
+        "import_statement": "from diagrams.aws.database import Redshift",
+        "module": "database"
+      },
+      {
+        "class_name": "RedshiftDenseComputeNode",
+        "import_statement": "from diagrams.aws.database import RedshiftDenseComputeNode",
+        "module": "database"
+      },
+      {
+        "class_name": "RedshiftDenseStorageNode",
+        "import_statement": "from diagrams.aws.database import RedshiftDenseStorageNode",
+        "module": "database"
+      },
+      {
+        "class_name": "Timestream",
+        "import_statement": "from diagrams.aws.database import Timestream",
+        "module": "database"
+      },
+      {
+        "class_name": "_Database",
+        "import_statement": "from diagrams.aws.database import _Database",
+        "module": "database"
+      }
+    ],
+    "devtools": [
+      {
+        "class_name": "CLI",
+        "import_statement": "from diagrams.aws.devtools import CLI",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Cloud9",
+        "import_statement": "from diagrams.aws.devtools import Cloud9",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Cloud9Resource",
+        "import_statement": "from diagrams.aws.devtools import Cloud9Resource",
+        "module": "devtools"
+      },
+      {
+        "class_name": "CloudDevelopmentKit",
+        "import_statement": "from diagrams.aws.devtools import CloudDevelopmentKit",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codeartifact",
+        "import_statement": "from diagrams.aws.devtools import Codeartifact",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codebuild",
+        "import_statement": "from diagrams.aws.devtools import Codebuild",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codecommit",
+        "import_statement": "from diagrams.aws.devtools import Codecommit",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codedeploy",
+        "import_statement": "from diagrams.aws.devtools import Codedeploy",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codepipeline",
+        "import_statement": "from diagrams.aws.devtools import Codepipeline",
+        "module": "devtools"
+      },
+      {
+        "class_name": "Codestar",
+        "import_statement": "from diagrams.aws.devtools import Codestar",
+        "module": "devtools"
+      },
+      {
+        "class_name": "CommandLineInterface",
+        "import_statement": "from diagrams.aws.devtools import CommandLineInterface",
+        "module": "devtools"
+      },
+      {
+        "class_name": "DevTools",
+        "import_statement": "from diagrams.aws.devtools import DevTools",
+        "module": "devtools"
+      },
+      {
+        "class_name": "DeveloperTools",
+        "import_statement": "from diagrams.aws.devtools import DeveloperTools",
+        "module": "devtools"
+      },
+      {
+        "class_name": "ToolsAndSdks",
+        "import_statement": "from diagrams.aws.devtools import ToolsAndSdks",
+        "module": "devtools"
+      },
+      {
+        "class_name": "XRay",
+        "import_statement": "from diagrams.aws.devtools import XRay",
+        "module": "devtools"
+      },
+      {
+        "class_name": "_Devtools",
+        "import_statement": "from diagrams.aws.devtools import _Devtools",
+        "module": "devtools"
+      }
+    ],
+    "enablement": [
+      {
+        "class_name": "CustomerEnablement",
+        "import_statement": "from diagrams.aws.enablement import CustomerEnablement",
+        "module": "enablement"
+      },
+      {
+        "class_name": "Iq",
+        "import_statement": "from diagrams.aws.enablement import Iq",
+        "module": "enablement"
+      },
+      {
+        "class_name": "ManagedServices",
+        "import_statement": "from diagrams.aws.enablement import ManagedServices",
+        "module": "enablement"
+      },
+      {
+        "class_name": "ProfessionalServices",
+        "import_statement": "from diagrams.aws.enablement import ProfessionalServices",
+        "module": "enablement"
+      },
+      {
+        "class_name": "Support",
+        "import_statement": "from diagrams.aws.enablement import Support",
+        "module": "enablement"
+      },
+      {
+        "class_name": "_Enablement",
+        "import_statement": "from diagrams.aws.enablement import _Enablement",
+        "module": "enablement"
+      }
+    ],
+    "enduser": [
+      {
+        "class_name": "Appstream20",
+        "import_statement": "from diagrams.aws.enduser import Appstream20",
+        "module": "enduser"
+      },
+      {
+        "class_name": "DesktopAndAppStreaming",
+        "import_statement": "from diagrams.aws.enduser import DesktopAndAppStreaming",
+        "module": "enduser"
+      },
+      {
+        "class_name": "Workdocs",
+        "import_statement": "from diagrams.aws.enduser import Workdocs",
+        "module": "enduser"
+      },
+      {
+        "class_name": "Worklink",
+        "import_statement": "from diagrams.aws.enduser import Worklink",
+        "module": "enduser"
+      },
+      {
+        "class_name": "Workspaces",
+        "import_statement": "from diagrams.aws.enduser import Workspaces",
+        "module": "enduser"
+      },
+      {
+        "class_name": "_Enduser",
+        "import_statement": "from diagrams.aws.enduser import _Enduser",
+        "module": "enduser"
+      }
+    ],
+    "engagement": [
+      {
+        "class_name": "Connect",
+        "import_statement": "from diagrams.aws.engagement import Connect",
+        "module": "engagement"
+      },
+      {
+        "class_name": "CustomerEngagement",
+        "import_statement": "from diagrams.aws.engagement import CustomerEngagement",
+        "module": "engagement"
+      },
+      {
+        "class_name": "Pinpoint",
+        "import_statement": "from diagrams.aws.engagement import Pinpoint",
+        "module": "engagement"
+      },
+      {
+        "class_name": "SES",
+        "import_statement": "from diagrams.aws.engagement import SES",
+        "module": "engagement"
+      },
+      {
+        "class_name": "SimpleEmailServiceSes",
+        "import_statement": "from diagrams.aws.engagement import SimpleEmailServiceSes",
+        "module": "engagement"
+      },
+      {
+        "class_name": "SimpleEmailServiceSesEmail",
+        "import_statement": "from diagrams.aws.engagement import SimpleEmailServiceSesEmail",
+        "module": "engagement"
+      },
+      {
+        "class_name": "_Engagement",
+        "import_statement": "from diagrams.aws.engagement import _Engagement",
+        "module": "engagement"
+      }
+    ],
+    "game": [
+      {
+        "class_name": "GameTech",
+        "import_statement": "from diagrams.aws.game import GameTech",
+        "module": "game"
+      },
+      {
+        "class_name": "Gamelift",
+        "import_statement": "from diagrams.aws.game import Gamelift",
+        "module": "game"
+      },
+      {
+        "class_name": "_Game",
+        "import_statement": "from diagrams.aws.game import _Game",
+        "module": "game"
+      }
+    ],
+    "general": [
+      {
+        "class_name": "Client",
+        "import_statement": "from diagrams.aws.general import Client",
+        "module": "general"
+      },
+      {
+        "class_name": "Disk",
+        "import_statement": "from diagrams.aws.general import Disk",
+        "module": "general"
+      },
+      {
+        "class_name": "Forums",
+        "import_statement": "from diagrams.aws.general import Forums",
+        "module": "general"
+      },
+      {
+        "class_name": "General",
+        "import_statement": "from diagrams.aws.general import General",
+        "module": "general"
+      },
+      {
+        "class_name": "GenericDatabase",
+        "import_statement": "from diagrams.aws.general import GenericDatabase",
+        "module": "general"
+      },
+      {
+        "class_name": "GenericFirewall",
+        "import_statement": "from diagrams.aws.general import GenericFirewall",
+        "module": "general"
+      },
+      {
+        "class_name": "GenericOfficeBuilding",
+        "import_statement": "from diagrams.aws.general import GenericOfficeBuilding",
+        "module": "general"
+      },
+      {
+        "class_name": "GenericSDK",
+        "import_statement": "from diagrams.aws.general import GenericSDK",
+        "module": "general"
+      },
+      {
+        "class_name": "GenericSamlToken",
+        "import_statement": "from diagrams.aws.general import GenericSamlToken",
+        "module": "general"
+      },
+      {
+        "class_name": "InternetAlt1",
+        "import_statement": "from diagrams.aws.general import InternetAlt1",
+        "module": "general"
+      },
+      {
+        "class_name": "InternetAlt2",
+        "import_statement": "from diagrams.aws.general import InternetAlt2",
+        "module": "general"
+      },
+      {
+        "class_name": "InternetGateway",
+        "import_statement": "from diagrams.aws.general import InternetGateway",
+        "module": "general"
+      },
+      {
+        "class_name": "Marketplace",
+        "import_statement": "from diagrams.aws.general import Marketplace",
+        "module": "general"
+      },
+      {
+        "class_name": "MobileClient",
+        "import_statement": "from diagrams.aws.general import MobileClient",
+        "module": "general"
+      },
+      {
+        "class_name": "Multimedia",
+        "import_statement": "from diagrams.aws.general import Multimedia",
+        "module": "general"
+      },
+      {
+        "class_name": "OfficeBuilding",
+        "import_statement": "from diagrams.aws.general import OfficeBuilding",
+        "module": "general"
+      },
+      {
+        "class_name": "SDK",
+        "import_statement": "from diagrams.aws.general import SDK",
+        "module": "general"
+      },
+      {
+        "class_name": "SamlToken",
+        "import_statement": "from diagrams.aws.general import SamlToken",
+        "module": "general"
+      },
+      {
+        "class_name": "SslPadlock",
+        "import_statement": "from diagrams.aws.general import SslPadlock",
+        "module": "general"
+      },
+      {
+        "class_name": "TapeStorage",
+        "import_statement": "from diagrams.aws.general import TapeStorage",
+        "module": "general"
+      },
+      {
+        "class_name": "Toolkit",
+        "import_statement": "from diagrams.aws.general import Toolkit",
+        "module": "general"
+      },
+      {
+        "class_name": "TraditionalServer",
+        "import_statement": "from diagrams.aws.general import TraditionalServer",
+        "module": "general"
+      },
+      {
+        "class_name": "User",
+        "import_statement": "from diagrams.aws.general import User",
+        "module": "general"
+      },
+      {
+        "class_name": "Users",
+        "import_statement": "from diagrams.aws.general import Users",
+        "module": "general"
+      },
+      {
+        "class_name": "_General",
+        "import_statement": "from diagrams.aws.general import _General",
+        "module": "general"
+      }
+    ],
+    "integration": [
+      {
+        "class_name": "ApplicationIntegration",
+        "import_statement": "from diagrams.aws.integration import ApplicationIntegration",
+        "module": "integration"
+      },
+      {
+        "class_name": "Appsync",
+        "import_statement": "from diagrams.aws.integration import Appsync",
+        "module": "integration"
+      },
+      {
+        "class_name": "ConsoleMobileApplication",
+        "import_statement": "from diagrams.aws.integration import ConsoleMobileApplication",
+        "module": "integration"
+      },
+      {
+        "class_name": "EventResource",
+        "import_statement": "from diagrams.aws.integration import EventResource",
+        "module": "integration"
+      },
+      {
+        "class_name": "Eventbridge",
+        "import_statement": "from diagrams.aws.integration import Eventbridge",
+        "module": "integration"
+      },
+      {
+        "class_name": "EventbridgeCustomEventBusResource",
+        "import_statement": "from diagrams.aws.integration import EventbridgeCustomEventBusResource",
+        "module": "integration"
+      },
+      {
+        "class_name": "EventbridgeDefaultEventBusResource",
+        "import_statement": "from diagrams.aws.integration import EventbridgeDefaultEventBusResource",
+        "module": "integration"
+      },
+      {
+        "class_name": "EventbridgeSaasPartnerEventBusResource",
+        "import_statement": "from diagrams.aws.integration import EventbridgeSaasPartnerEventBusResource",
+        "module": "integration"
+      },
+      {
+        "class_name": "ExpressWorkflows",
+        "import_statement": "from diagrams.aws.integration import ExpressWorkflows",
+        "module": "integration"
+      },
+      {
+        "class_name": "MQ",
+        "import_statement": "from diagrams.aws.integration import MQ",
+        "module": "integration"
+      },
+      {
+        "class_name": "SF",
+        "import_statement": "from diagrams.aws.integration import SF",
+        "module": "integration"
+      },
+      {
+        "class_name": "SNS",
+        "import_statement": "from diagrams.aws.integration import SNS",
+        "module": "integration"
+      },
+      {
+        "class_name": "SQS",
+        "import_statement": "from diagrams.aws.integration import SQS",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleNotificationServiceSns",
+        "import_statement": "from diagrams.aws.integration import SimpleNotificationServiceSns",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleNotificationServiceSnsEmailNotification",
+        "import_statement": "from diagrams.aws.integration import SimpleNotificationServiceSnsEmailNotification",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleNotificationServiceSnsHttpNotification",
+        "import_statement": "from diagrams.aws.integration import SimpleNotificationServiceSnsHttpNotification",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleNotificationServiceSnsTopic",
+        "import_statement": "from diagrams.aws.integration import SimpleNotificationServiceSnsTopic",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleQueueServiceSqs",
+        "import_statement": "from diagrams.aws.integration import SimpleQueueServiceSqs",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleQueueServiceSqsMessage",
+        "import_statement": "from diagrams.aws.integration import SimpleQueueServiceSqsMessage",
+        "module": "integration"
+      },
+      {
+        "class_name": "SimpleQueueServiceSqsQueue",
+        "import_statement": "from diagrams.aws.integration import SimpleQueueServiceSqsQueue",
+        "module": "integration"
+      },
+      {
+        "class_name": "StepFunctions",
+        "import_statement": "from diagrams.aws.integration import StepFunctions",
+        "module": "integration"
+      },
+      {
+        "class_name": "_Integration",
+        "import_statement": "from diagrams.aws.integration import _Integration",
+        "module": "integration"
+      }
+    ],
+    "iot": [
+      {
+        "class_name": "FreeRTOS",
+        "import_statement": "from diagrams.aws.iot import FreeRTOS",
+        "module": "iot"
+      },
+      {
+        "class_name": "Freertos",
+        "import_statement": "from diagrams.aws.iot import Freertos",
+        "module": "iot"
+      },
+      {
+        "class_name": "InternetOfThings",
+        "import_statement": "from diagrams.aws.iot import InternetOfThings",
+        "module": "iot"
+      },
+      {
+        "class_name": "Iot1Click",
+        "import_statement": "from diagrams.aws.iot import Iot1Click",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAction",
+        "import_statement": "from diagrams.aws.iot import IotAction",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotActuator",
+        "import_statement": "from diagrams.aws.iot import IotActuator",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAlexaEcho",
+        "import_statement": "from diagrams.aws.iot import IotAlexaEcho",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAlexaEnabledDevice",
+        "import_statement": "from diagrams.aws.iot import IotAlexaEnabledDevice",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAlexaSkill",
+        "import_statement": "from diagrams.aws.iot import IotAlexaSkill",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAlexaVoiceService",
+        "import_statement": "from diagrams.aws.iot import IotAlexaVoiceService",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalytics",
+        "import_statement": "from diagrams.aws.iot import IotAnalytics",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalyticsChannel",
+        "import_statement": "from diagrams.aws.iot import IotAnalyticsChannel",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalyticsDataSet",
+        "import_statement": "from diagrams.aws.iot import IotAnalyticsDataSet",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalyticsDataStore",
+        "import_statement": "from diagrams.aws.iot import IotAnalyticsDataStore",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalyticsNotebook",
+        "import_statement": "from diagrams.aws.iot import IotAnalyticsNotebook",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotAnalyticsPipeline",
+        "import_statement": "from diagrams.aws.iot import IotAnalyticsPipeline",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotBank",
+        "import_statement": "from diagrams.aws.iot import IotBank",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotBicycle",
+        "import_statement": "from diagrams.aws.iot import IotBicycle",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotBoard",
+        "import_statement": "from diagrams.aws.iot import IotBoard",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotButton",
+        "import_statement": "from diagrams.aws.iot import IotButton",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCamera",
+        "import_statement": "from diagrams.aws.iot import IotCamera",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCar",
+        "import_statement": "from diagrams.aws.iot import IotCar",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCart",
+        "import_statement": "from diagrams.aws.iot import IotCart",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCertificate",
+        "import_statement": "from diagrams.aws.iot import IotCertificate",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCoffeePot",
+        "import_statement": "from diagrams.aws.iot import IotCoffeePot",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotCore",
+        "import_statement": "from diagrams.aws.iot import IotCore",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotDesiredState",
+        "import_statement": "from diagrams.aws.iot import IotDesiredState",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotDeviceDefender",
+        "import_statement": "from diagrams.aws.iot import IotDeviceDefender",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotDeviceGateway",
+        "import_statement": "from diagrams.aws.iot import IotDeviceGateway",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotDeviceManagement",
+        "import_statement": "from diagrams.aws.iot import IotDeviceManagement",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotDoorLock",
+        "import_statement": "from diagrams.aws.iot import IotDoorLock",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotEvents",
+        "import_statement": "from diagrams.aws.iot import IotEvents",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotFactory",
+        "import_statement": "from diagrams.aws.iot import IotFactory",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotFireTv",
+        "import_statement": "from diagrams.aws.iot import IotFireTv",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotFireTvStick",
+        "import_statement": "from diagrams.aws.iot import IotFireTvStick",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotGeneric",
+        "import_statement": "from diagrams.aws.iot import IotGeneric",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotGreengrass",
+        "import_statement": "from diagrams.aws.iot import IotGreengrass",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotGreengrassConnector",
+        "import_statement": "from diagrams.aws.iot import IotGreengrassConnector",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotHardwareBoard",
+        "import_statement": "from diagrams.aws.iot import IotHardwareBoard",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotHouse",
+        "import_statement": "from diagrams.aws.iot import IotHouse",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotHttp",
+        "import_statement": "from diagrams.aws.iot import IotHttp",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotHttp2",
+        "import_statement": "from diagrams.aws.iot import IotHttp2",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotJobs",
+        "import_statement": "from diagrams.aws.iot import IotJobs",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotLambda",
+        "import_statement": "from diagrams.aws.iot import IotLambda",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotLightbulb",
+        "import_statement": "from diagrams.aws.iot import IotLightbulb",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotMedicalEmergency",
+        "import_statement": "from diagrams.aws.iot import IotMedicalEmergency",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotMqtt",
+        "import_statement": "from diagrams.aws.iot import IotMqtt",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotOverTheAirUpdate",
+        "import_statement": "from diagrams.aws.iot import IotOverTheAirUpdate",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotPolicy",
+        "import_statement": "from diagrams.aws.iot import IotPolicy",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotPolicyEmergency",
+        "import_statement": "from diagrams.aws.iot import IotPolicyEmergency",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotReportedState",
+        "import_statement": "from diagrams.aws.iot import IotReportedState",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotRule",
+        "import_statement": "from diagrams.aws.iot import IotRule",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotSensor",
+        "import_statement": "from diagrams.aws.iot import IotSensor",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotServo",
+        "import_statement": "from diagrams.aws.iot import IotServo",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotShadow",
+        "import_statement": "from diagrams.aws.iot import IotShadow",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotSimulator",
+        "import_statement": "from diagrams.aws.iot import IotSimulator",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotSitewise",
+        "import_statement": "from diagrams.aws.iot import IotSitewise",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotThermostat",
+        "import_statement": "from diagrams.aws.iot import IotThermostat",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotThingsGraph",
+        "import_statement": "from diagrams.aws.iot import IotThingsGraph",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotTopic",
+        "import_statement": "from diagrams.aws.iot import IotTopic",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotTravel",
+        "import_statement": "from diagrams.aws.iot import IotTravel",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotUtility",
+        "import_statement": "from diagrams.aws.iot import IotUtility",
+        "module": "iot"
+      },
+      {
+        "class_name": "IotWindfarm",
+        "import_statement": "from diagrams.aws.iot import IotWindfarm",
+        "module": "iot"
+      },
+      {
+        "class_name": "_Iot",
+        "import_statement": "from diagrams.aws.iot import _Iot",
+        "module": "iot"
+      }
+    ],
+    "management": [
+      {
+        "class_name": "AmazonDevopsGuru",
+        "import_statement": "from diagrams.aws.management import AmazonDevopsGuru",
+        "module": "management"
+      },
+      {
+        "class_name": "AmazonManagedGrafana",
+        "import_statement": "from diagrams.aws.management import AmazonManagedGrafana",
+        "module": "management"
+      },
+      {
+        "class_name": "AmazonManagedPrometheus",
+        "import_statement": "from diagrams.aws.management import AmazonManagedPrometheus",
+        "module": "management"
+      },
+      {
+        "class_name": "AmazonManagedWorkflowsApacheAirflow",
+        "import_statement": "from diagrams.aws.management import AmazonManagedWorkflowsApacheAirflow",
+        "module": "management"
+      },
+      {
+        "class_name": "AutoScaling",
+        "import_statement": "from diagrams.aws.management import AutoScaling",
+        "module": "management"
+      },
+      {
+        "class_name": "Chatbot",
+        "import_statement": "from diagrams.aws.management import Chatbot",
+        "module": "management"
+      },
+      {
+        "class_name": "Cloudformation",
+        "import_statement": "from diagrams.aws.management import Cloudformation",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudformationChangeSet",
+        "import_statement": "from diagrams.aws.management import CloudformationChangeSet",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudformationStack",
+        "import_statement": "from diagrams.aws.management import CloudformationStack",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudformationTemplate",
+        "import_statement": "from diagrams.aws.management import CloudformationTemplate",
+        "module": "management"
+      },
+      {
+        "class_name": "Cloudtrail",
+        "import_statement": "from diagrams.aws.management import Cloudtrail",
+        "module": "management"
+      },
+      {
+        "class_name": "Cloudwatch",
+        "import_statement": "from diagrams.aws.management import Cloudwatch",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudwatchAlarm",
+        "import_statement": "from diagrams.aws.management import CloudwatchAlarm",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudwatchEventEventBased",
+        "import_statement": "from diagrams.aws.management import CloudwatchEventEventBased",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudwatchEventTimeBased",
+        "import_statement": "from diagrams.aws.management import CloudwatchEventTimeBased",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudwatchLogs",
+        "import_statement": "from diagrams.aws.management import CloudwatchLogs",
+        "module": "management"
+      },
+      {
+        "class_name": "CloudwatchRule",
+        "import_statement": "from diagrams.aws.management import CloudwatchRule",
+        "module": "management"
+      },
+      {
+        "class_name": "Codeguru",
+        "import_statement": "from diagrams.aws.management import Codeguru",
+        "module": "management"
+      },
+      {
+        "class_name": "CommandLineInterface",
+        "import_statement": "from diagrams.aws.management import CommandLineInterface",
+        "module": "management"
+      },
+      {
+        "class_name": "Config",
+        "import_statement": "from diagrams.aws.management import Config",
+        "module": "management"
+      },
+      {
+        "class_name": "ControlTower",
+        "import_statement": "from diagrams.aws.management import ControlTower",
+        "module": "management"
+      },
+      {
+        "class_name": "LicenseManager",
+        "import_statement": "from diagrams.aws.management import LicenseManager",
+        "module": "management"
+      },
+      {
+        "class_name": "ManagedServices",
+        "import_statement": "from diagrams.aws.management import ManagedServices",
+        "module": "management"
+      },
+      {
+        "class_name": "ManagementAndGovernance",
+        "import_statement": "from diagrams.aws.management import ManagementAndGovernance",
+        "module": "management"
+      },
+      {
+        "class_name": "ManagementConsole",
+        "import_statement": "from diagrams.aws.management import ManagementConsole",
+        "module": "management"
+      },
+      {
+        "class_name": "Opsworks",
+        "import_statement": "from diagrams.aws.management import Opsworks",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksApps",
+        "import_statement": "from diagrams.aws.management import OpsworksApps",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksDeployments",
+        "import_statement": "from diagrams.aws.management import OpsworksDeployments",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksInstances",
+        "import_statement": "from diagrams.aws.management import OpsworksInstances",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksLayers",
+        "import_statement": "from diagrams.aws.management import OpsworksLayers",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksMonitoring",
+        "import_statement": "from diagrams.aws.management import OpsworksMonitoring",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksPermissions",
+        "import_statement": "from diagrams.aws.management import OpsworksPermissions",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksResources",
+        "import_statement": "from diagrams.aws.management import OpsworksResources",
+        "module": "management"
+      },
+      {
+        "class_name": "OpsworksStack",
+        "import_statement": "from diagrams.aws.management import OpsworksStack",
+        "module": "management"
+      },
+      {
+        "class_name": "Organizations",
+        "import_statement": "from diagrams.aws.management import Organizations",
+        "module": "management"
+      },
+      {
+        "class_name": "OrganizationsAccount",
+        "import_statement": "from diagrams.aws.management import OrganizationsAccount",
+        "module": "management"
+      },
+      {
+        "class_name": "OrganizationsOrganizationalUnit",
+        "import_statement": "from diagrams.aws.management import OrganizationsOrganizationalUnit",
+        "module": "management"
+      },
+      {
+        "class_name": "ParameterStore",
+        "import_statement": "from diagrams.aws.management import ParameterStore",
+        "module": "management"
+      },
+      {
+        "class_name": "PersonalHealthDashboard",
+        "import_statement": "from diagrams.aws.management import PersonalHealthDashboard",
+        "module": "management"
+      },
+      {
+        "class_name": "Proton",
+        "import_statement": "from diagrams.aws.management import Proton",
+        "module": "management"
+      },
+      {
+        "class_name": "SSM",
+        "import_statement": "from diagrams.aws.management import SSM",
+        "module": "management"
+      },
+      {
+        "class_name": "ServiceCatalog",
+        "import_statement": "from diagrams.aws.management import ServiceCatalog",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManager",
+        "import_statement": "from diagrams.aws.management import SystemsManager",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerAppConfig",
+        "import_statement": "from diagrams.aws.management import SystemsManagerAppConfig",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerAutomation",
+        "import_statement": "from diagrams.aws.management import SystemsManagerAutomation",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerDocuments",
+        "import_statement": "from diagrams.aws.management import SystemsManagerDocuments",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerInventory",
+        "import_statement": "from diagrams.aws.management import SystemsManagerInventory",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerMaintenanceWindows",
+        "import_statement": "from diagrams.aws.management import SystemsManagerMaintenanceWindows",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerOpscenter",
+        "import_statement": "from diagrams.aws.management import SystemsManagerOpscenter",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerParameterStore",
+        "import_statement": "from diagrams.aws.management import SystemsManagerParameterStore",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerPatchManager",
+        "import_statement": "from diagrams.aws.management import SystemsManagerPatchManager",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerRunCommand",
+        "import_statement": "from diagrams.aws.management import SystemsManagerRunCommand",
+        "module": "management"
+      },
+      {
+        "class_name": "SystemsManagerStateManager",
+        "import_statement": "from diagrams.aws.management import SystemsManagerStateManager",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisor",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisor",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisorChecklist",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisorChecklist",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisorChecklistCost",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisorChecklistCost",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisorChecklistFaultTolerant",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisorChecklistFaultTolerant",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisorChecklistPerformance",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisorChecklistPerformance",
+        "module": "management"
+      },
+      {
+        "class_name": "TrustedAdvisorChecklistSecurity",
+        "import_statement": "from diagrams.aws.management import TrustedAdvisorChecklistSecurity",
+        "module": "management"
+      },
+      {
+        "class_name": "WellArchitectedTool",
+        "import_statement": "from diagrams.aws.management import WellArchitectedTool",
+        "module": "management"
+      },
+      {
+        "class_name": "_Management",
+        "import_statement": "from diagrams.aws.management import _Management",
+        "module": "management"
+      }
+    ],
+    "media": [
+      {
+        "class_name": "ElasticTranscoder",
+        "import_statement": "from diagrams.aws.media import ElasticTranscoder",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalConductor",
+        "import_statement": "from diagrams.aws.media import ElementalConductor",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalDelta",
+        "import_statement": "from diagrams.aws.media import ElementalDelta",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalLive",
+        "import_statement": "from diagrams.aws.media import ElementalLive",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMediaconnect",
+        "import_statement": "from diagrams.aws.media import ElementalMediaconnect",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMediaconvert",
+        "import_statement": "from diagrams.aws.media import ElementalMediaconvert",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMedialive",
+        "import_statement": "from diagrams.aws.media import ElementalMedialive",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMediapackage",
+        "import_statement": "from diagrams.aws.media import ElementalMediapackage",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMediastore",
+        "import_statement": "from diagrams.aws.media import ElementalMediastore",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalMediatailor",
+        "import_statement": "from diagrams.aws.media import ElementalMediatailor",
+        "module": "media"
+      },
+      {
+        "class_name": "ElementalServer",
+        "import_statement": "from diagrams.aws.media import ElementalServer",
+        "module": "media"
+      },
+      {
+        "class_name": "KinesisVideoStreams",
+        "import_statement": "from diagrams.aws.media import KinesisVideoStreams",
+        "module": "media"
+      },
+      {
+        "class_name": "MediaServices",
+        "import_statement": "from diagrams.aws.media import MediaServices",
+        "module": "media"
+      },
+      {
+        "class_name": "_Media",
+        "import_statement": "from diagrams.aws.media import _Media",
+        "module": "media"
+      }
+    ],
+    "migration": [
+      {
+        "class_name": "ADS",
+        "import_statement": "from diagrams.aws.migration import ADS",
+        "module": "migration"
+      },
+      {
+        "class_name": "ApplicationDiscoveryService",
+        "import_statement": "from diagrams.aws.migration import ApplicationDiscoveryService",
+        "module": "migration"
+      },
+      {
+        "class_name": "CEM",
+        "import_statement": "from diagrams.aws.migration import CEM",
+        "module": "migration"
+      },
+      {
+        "class_name": "CloudendureMigration",
+        "import_statement": "from diagrams.aws.migration import CloudendureMigration",
+        "module": "migration"
+      },
+      {
+        "class_name": "DMS",
+        "import_statement": "from diagrams.aws.migration import DMS",
+        "module": "migration"
+      },
+      {
+        "class_name": "DatabaseMigrationService",
+        "import_statement": "from diagrams.aws.migration import DatabaseMigrationService",
+        "module": "migration"
+      },
+      {
+        "class_name": "Datasync",
+        "import_statement": "from diagrams.aws.migration import Datasync",
+        "module": "migration"
+      },
+      {
+        "class_name": "DatasyncAgent",
+        "import_statement": "from diagrams.aws.migration import DatasyncAgent",
+        "module": "migration"
+      },
+      {
+        "class_name": "MAT",
+        "import_statement": "from diagrams.aws.migration import MAT",
+        "module": "migration"
+      },
+      {
+        "class_name": "MigrationAndTransfer",
+        "import_statement": "from diagrams.aws.migration import MigrationAndTransfer",
+        "module": "migration"
+      },
+      {
+        "class_name": "MigrationHub",
+        "import_statement": "from diagrams.aws.migration import MigrationHub",
+        "module": "migration"
+      },
+      {
+        "class_name": "SMS",
+        "import_statement": "from diagrams.aws.migration import SMS",
+        "module": "migration"
+      },
+      {
+        "class_name": "ServerMigrationService",
+        "import_statement": "from diagrams.aws.migration import ServerMigrationService",
+        "module": "migration"
+      },
+      {
+        "class_name": "Snowball",
+        "import_statement": "from diagrams.aws.migration import Snowball",
+        "module": "migration"
+      },
+      {
+        "class_name": "SnowballEdge",
+        "import_statement": "from diagrams.aws.migration import SnowballEdge",
+        "module": "migration"
+      },
+      {
+        "class_name": "Snowmobile",
+        "import_statement": "from diagrams.aws.migration import Snowmobile",
+        "module": "migration"
+      },
+      {
+        "class_name": "TransferForSftp",
+        "import_statement": "from diagrams.aws.migration import TransferForSftp",
+        "module": "migration"
+      },
+      {
+        "class_name": "_Migration",
+        "import_statement": "from diagrams.aws.migration import _Migration",
+        "module": "migration"
+      }
+    ],
+    "ml": [
+      {
+        "class_name": "ApacheMxnetOnAWS",
+        "import_statement": "from diagrams.aws.ml import ApacheMxnetOnAWS",
+        "module": "ml"
+      },
+      {
+        "class_name": "AugmentedAi",
+        "import_statement": "from diagrams.aws.ml import AugmentedAi",
+        "module": "ml"
+      },
+      {
+        "class_name": "Bedrock",
+        "import_statement": "from diagrams.aws.ml import Bedrock",
+        "module": "ml"
+      },
+      {
+        "class_name": "Comprehend",
+        "import_statement": "from diagrams.aws.ml import Comprehend",
+        "module": "ml"
+      },
+      {
+        "class_name": "DLC",
+        "import_statement": "from diagrams.aws.ml import DLC",
+        "module": "ml"
+      },
+      {
+        "class_name": "DeepLearningAmis",
+        "import_statement": "from diagrams.aws.ml import DeepLearningAmis",
+        "module": "ml"
+      },
+      {
+        "class_name": "DeepLearningContainers",
+        "import_statement": "from diagrams.aws.ml import DeepLearningContainers",
+        "module": "ml"
+      },
+      {
+        "class_name": "Deepcomposer",
+        "import_statement": "from diagrams.aws.ml import Deepcomposer",
+        "module": "ml"
+      },
+      {
+        "class_name": "Deeplens",
+        "import_statement": "from diagrams.aws.ml import Deeplens",
+        "module": "ml"
+      },
+      {
+        "class_name": "Deepracer",
+        "import_statement": "from diagrams.aws.ml import Deepracer",
+        "module": "ml"
+      },
+      {
+        "class_name": "ElasticInference",
+        "import_statement": "from diagrams.aws.ml import ElasticInference",
+        "module": "ml"
+      },
+      {
+        "class_name": "Forecast",
+        "import_statement": "from diagrams.aws.ml import Forecast",
+        "module": "ml"
+      },
+      {
+        "class_name": "FraudDetector",
+        "import_statement": "from diagrams.aws.ml import FraudDetector",
+        "module": "ml"
+      },
+      {
+        "class_name": "Kendra",
+        "import_statement": "from diagrams.aws.ml import Kendra",
+        "module": "ml"
+      },
+      {
+        "class_name": "Lex",
+        "import_statement": "from diagrams.aws.ml import Lex",
+        "module": "ml"
+      },
+      {
+        "class_name": "MachineLearning",
+        "import_statement": "from diagrams.aws.ml import MachineLearning",
+        "module": "ml"
+      },
+      {
+        "class_name": "Personalize",
+        "import_statement": "from diagrams.aws.ml import Personalize",
+        "module": "ml"
+      },
+      {
+        "class_name": "Polly",
+        "import_statement": "from diagrams.aws.ml import Polly",
+        "module": "ml"
+      },
+      {
+        "class_name": "Rekognition",
+        "import_statement": "from diagrams.aws.ml import Rekognition",
+        "module": "ml"
+      },
+      {
+        "class_name": "RekognitionImage",
+        "import_statement": "from diagrams.aws.ml import RekognitionImage",
+        "module": "ml"
+      },
+      {
+        "class_name": "RekognitionVideo",
+        "import_statement": "from diagrams.aws.ml import RekognitionVideo",
+        "module": "ml"
+      },
+      {
+        "class_name": "Sagemaker",
+        "import_statement": "from diagrams.aws.ml import Sagemaker",
+        "module": "ml"
+      },
+      {
+        "class_name": "SagemakerGroundTruth",
+        "import_statement": "from diagrams.aws.ml import SagemakerGroundTruth",
+        "module": "ml"
+      },
+      {
+        "class_name": "SagemakerModel",
+        "import_statement": "from diagrams.aws.ml import SagemakerModel",
+        "module": "ml"
+      },
+      {
+        "class_name": "SagemakerNotebook",
+        "import_statement": "from diagrams.aws.ml import SagemakerNotebook",
+        "module": "ml"
+      },
+      {
+        "class_name": "SagemakerTrainingJob",
+        "import_statement": "from diagrams.aws.ml import SagemakerTrainingJob",
+        "module": "ml"
+      },
+      {
+        "class_name": "TensorflowOnAWS",
+        "import_statement": "from diagrams.aws.ml import TensorflowOnAWS",
+        "module": "ml"
+      },
+      {
+        "class_name": "Textract",
+        "import_statement": "from diagrams.aws.ml import Textract",
+        "module": "ml"
+      },
+      {
+        "class_name": "Transcribe",
+        "import_statement": "from diagrams.aws.ml import Transcribe",
+        "module": "ml"
+      },
+      {
+        "class_name": "Translate",
+        "import_statement": "from diagrams.aws.ml import Translate",
+        "module": "ml"
+      },
+      {
+        "class_name": "_ML",
+        "import_statement": "from diagrams.aws.ml import _ML",
+        "module": "ml"
+      }
+    ],
+    "mobile": [
+      {
+        "class_name": "APIGateway",
+        "import_statement": "from diagrams.aws.mobile import APIGateway",
+        "module": "mobile"
+      },
+      {
+        "class_name": "APIGatewayEndpoint",
+        "import_statement": "from diagrams.aws.mobile import APIGatewayEndpoint",
+        "module": "mobile"
+      },
+      {
+        "class_name": "Amplify",
+        "import_statement": "from diagrams.aws.mobile import Amplify",
+        "module": "mobile"
+      },
+      {
+        "class_name": "Appsync",
+        "import_statement": "from diagrams.aws.mobile import Appsync",
+        "module": "mobile"
+      },
+      {
+        "class_name": "DeviceFarm",
+        "import_statement": "from diagrams.aws.mobile import DeviceFarm",
+        "module": "mobile"
+      },
+      {
+        "class_name": "Mobile",
+        "import_statement": "from diagrams.aws.mobile import Mobile",
+        "module": "mobile"
+      },
+      {
+        "class_name": "Pinpoint",
+        "import_statement": "from diagrams.aws.mobile import Pinpoint",
+        "module": "mobile"
+      },
+      {
+        "class_name": "_Mobile",
+        "import_statement": "from diagrams.aws.mobile import _Mobile",
+        "module": "mobile"
+      }
+    ],
+    "network": [
+      {
+        "class_name": "ALB",
+        "import_statement": "from diagrams.aws.network import ALB",
+        "module": "network"
+      },
+      {
+        "class_name": "APIGateway",
+        "import_statement": "from diagrams.aws.network import APIGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "APIGatewayEndpoint",
+        "import_statement": "from diagrams.aws.network import APIGatewayEndpoint",
+        "module": "network"
+      },
+      {
+        "class_name": "AppMesh",
+        "import_statement": "from diagrams.aws.network import AppMesh",
+        "module": "network"
+      },
+      {
+        "class_name": "CF",
+        "import_statement": "from diagrams.aws.network import CF",
+        "module": "network"
+      },
+      {
+        "class_name": "CLB",
+        "import_statement": "from diagrams.aws.network import CLB",
+        "module": "network"
+      },
+      {
+        "class_name": "ClientVpn",
+        "import_statement": "from diagrams.aws.network import ClientVpn",
+        "module": "network"
+      },
+      {
+        "class_name": "CloudFront",
+        "import_statement": "from diagrams.aws.network import CloudFront",
+        "module": "network"
+      },
+      {
+        "class_name": "CloudFrontDownloadDistribution",
+        "import_statement": "from diagrams.aws.network import CloudFrontDownloadDistribution",
+        "module": "network"
+      },
+      {
+        "class_name": "CloudFrontEdgeLocation",
+        "import_statement": "from diagrams.aws.network import CloudFrontEdgeLocation",
+        "module": "network"
+      },
+      {
+        "class_name": "CloudFrontStreamingDistribution",
+        "import_statement": "from diagrams.aws.network import CloudFrontStreamingDistribution",
+        "module": "network"
+      },
+      {
+        "class_name": "CloudMap",
+        "import_statement": "from diagrams.aws.network import CloudMap",
+        "module": "network"
+      },
+      {
+        "class_name": "DirectConnect",
+        "import_statement": "from diagrams.aws.network import DirectConnect",
+        "module": "network"
+      },
+      {
+        "class_name": "ELB",
+        "import_statement": "from diagrams.aws.network import ELB",
+        "module": "network"
+      },
+      {
+        "class_name": "ElasticLoadBalancing",
+        "import_statement": "from diagrams.aws.network import ElasticLoadBalancing",
+        "module": "network"
+      },
+      {
+        "class_name": "ElbApplicationLoadBalancer",
+        "import_statement": "from diagrams.aws.network import ElbApplicationLoadBalancer",
+        "module": "network"
+      },
+      {
+        "class_name": "ElbClassicLoadBalancer",
+        "import_statement": "from diagrams.aws.network import ElbClassicLoadBalancer",
+        "module": "network"
+      },
+      {
+        "class_name": "ElbNetworkLoadBalancer",
+        "import_statement": "from diagrams.aws.network import ElbNetworkLoadBalancer",
+        "module": "network"
+      },
+      {
+        "class_name": "Endpoint",
+        "import_statement": "from diagrams.aws.network import Endpoint",
+        "module": "network"
+      },
+      {
+        "class_name": "GAX",
+        "import_statement": "from diagrams.aws.network import GAX",
+        "module": "network"
+      },
+      {
+        "class_name": "GlobalAccelerator",
+        "import_statement": "from diagrams.aws.network import GlobalAccelerator",
+        "module": "network"
+      },
+      {
+        "class_name": "IGW",
+        "import_statement": "from diagrams.aws.network import IGW",
+        "module": "network"
+      },
+      {
+        "class_name": "InternetGateway",
+        "import_statement": "from diagrams.aws.network import InternetGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "NATGateway",
+        "import_statement": "from diagrams.aws.network import NATGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "NLB",
+        "import_statement": "from diagrams.aws.network import NLB",
+        "module": "network"
+      },
+      {
+        "class_name": "Nacl",
+        "import_statement": "from diagrams.aws.network import Nacl",
+        "module": "network"
+      },
+      {
+        "class_name": "NetworkFirewall",
+        "import_statement": "from diagrams.aws.network import NetworkFirewall",
+        "module": "network"
+      },
+      {
+        "class_name": "NetworkingAndContentDelivery",
+        "import_statement": "from diagrams.aws.network import NetworkingAndContentDelivery",
+        "module": "network"
+      },
+      {
+        "class_name": "PrivateSubnet",
+        "import_statement": "from diagrams.aws.network import PrivateSubnet",
+        "module": "network"
+      },
+      {
+        "class_name": "Privatelink",
+        "import_statement": "from diagrams.aws.network import Privatelink",
+        "module": "network"
+      },
+      {
+        "class_name": "PublicSubnet",
+        "import_statement": "from diagrams.aws.network import PublicSubnet",
+        "module": "network"
+      },
+      {
+        "class_name": "Route53",
+        "import_statement": "from diagrams.aws.network import Route53",
+        "module": "network"
+      },
+      {
+        "class_name": "Route53HostedZone",
+        "import_statement": "from diagrams.aws.network import Route53HostedZone",
+        "module": "network"
+      },
+      {
+        "class_name": "RouteTable",
+        "import_statement": "from diagrams.aws.network import RouteTable",
+        "module": "network"
+      },
+      {
+        "class_name": "SiteToSiteVpn",
+        "import_statement": "from diagrams.aws.network import SiteToSiteVpn",
+        "module": "network"
+      },
+      {
+        "class_name": "TGW",
+        "import_statement": "from diagrams.aws.network import TGW",
+        "module": "network"
+      },
+      {
+        "class_name": "TGWAttach",
+        "import_statement": "from diagrams.aws.network import TGWAttach",
+        "module": "network"
+      },
+      {
+        "class_name": "TransitGateway",
+        "import_statement": "from diagrams.aws.network import TransitGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "TransitGatewayAttachment",
+        "import_statement": "from diagrams.aws.network import TransitGatewayAttachment",
+        "module": "network"
+      },
+      {
+        "class_name": "VPC",
+        "import_statement": "from diagrams.aws.network import VPC",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCCustomerGateway",
+        "import_statement": "from diagrams.aws.network import VPCCustomerGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCElasticNetworkAdapter",
+        "import_statement": "from diagrams.aws.network import VPCElasticNetworkAdapter",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCElasticNetworkInterface",
+        "import_statement": "from diagrams.aws.network import VPCElasticNetworkInterface",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCFlowLogs",
+        "import_statement": "from diagrams.aws.network import VPCFlowLogs",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCPeering",
+        "import_statement": "from diagrams.aws.network import VPCPeering",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCRouter",
+        "import_statement": "from diagrams.aws.network import VPCRouter",
+        "module": "network"
+      },
+      {
+        "class_name": "VPCTrafficMirroring",
+        "import_statement": "from diagrams.aws.network import VPCTrafficMirroring",
+        "module": "network"
+      },
+      {
+        "class_name": "VpnConnection",
+        "import_statement": "from diagrams.aws.network import VpnConnection",
+        "module": "network"
+      },
+      {
+        "class_name": "VpnGateway",
+        "import_statement": "from diagrams.aws.network import VpnGateway",
+        "module": "network"
+      },
+      {
+        "class_name": "_Network",
+        "import_statement": "from diagrams.aws.network import _Network",
+        "module": "network"
+      }
+    ],
+    "quantum": [
+      {
+        "class_name": "Braket",
+        "import_statement": "from diagrams.aws.quantum import Braket",
+        "module": "quantum"
+      },
+      {
+        "class_name": "QuantumTechnologies",
+        "import_statement": "from diagrams.aws.quantum import QuantumTechnologies",
+        "module": "quantum"
+      },
+      {
+        "class_name": "_Quantum",
+        "import_statement": "from diagrams.aws.quantum import _Quantum",
+        "module": "quantum"
+      }
+    ],
+    "robotics": [
+      {
+        "class_name": "Robomaker",
+        "import_statement": "from diagrams.aws.robotics import Robomaker",
+        "module": "robotics"
+      },
+      {
+        "class_name": "RobomakerCloudExtensionRos",
+        "import_statement": "from diagrams.aws.robotics import RobomakerCloudExtensionRos",
+        "module": "robotics"
+      },
+      {
+        "class_name": "RobomakerDevelopmentEnvironment",
+        "import_statement": "from diagrams.aws.robotics import RobomakerDevelopmentEnvironment",
+        "module": "robotics"
+      },
+      {
+        "class_name": "RobomakerFleetManagement",
+        "import_statement": "from diagrams.aws.robotics import RobomakerFleetManagement",
+        "module": "robotics"
+      },
+      {
+        "class_name": "RobomakerSimulator",
+        "import_statement": "from diagrams.aws.robotics import RobomakerSimulator",
+        "module": "robotics"
+      },
+      {
+        "class_name": "Robotics",
+        "import_statement": "from diagrams.aws.robotics import Robotics",
+        "module": "robotics"
+      },
+      {
+        "class_name": "_Robotics",
+        "import_statement": "from diagrams.aws.robotics import _Robotics",
+        "module": "robotics"
+      }
+    ],
+    "satellite": [
+      {
+        "class_name": "GroundStation",
+        "import_statement": "from diagrams.aws.satellite import GroundStation",
+        "module": "satellite"
+      },
+      {
+        "class_name": "Satellite",
+        "import_statement": "from diagrams.aws.satellite import Satellite",
+        "module": "satellite"
+      },
+      {
+        "class_name": "_Satellite",
+        "import_statement": "from diagrams.aws.satellite import _Satellite",
+        "module": "satellite"
+      }
+    ],
+    "security": [
+      {
+        "class_name": "ACM",
+        "import_statement": "from diagrams.aws.security import ACM",
+        "module": "security"
+      },
+      {
+        "class_name": "AdConnector",
+        "import_statement": "from diagrams.aws.security import AdConnector",
+        "module": "security"
+      },
+      {
+        "class_name": "Artifact",
+        "import_statement": "from diagrams.aws.security import Artifact",
+        "module": "security"
+      },
+      {
+        "class_name": "CertificateAuthority",
+        "import_statement": "from diagrams.aws.security import CertificateAuthority",
+        "module": "security"
+      },
+      {
+        "class_name": "CertificateManager",
+        "import_statement": "from diagrams.aws.security import CertificateManager",
+        "module": "security"
+      },
+      {
+        "class_name": "CloudDirectory",
+        "import_statement": "from diagrams.aws.security import CloudDirectory",
+        "module": "security"
+      },
+      {
+        "class_name": "CloudHSM",
+        "import_statement": "from diagrams.aws.security import CloudHSM",
+        "module": "security"
+      },
+      {
+        "class_name": "Cloudhsm",
+        "import_statement": "from diagrams.aws.security import Cloudhsm",
+        "module": "security"
+      },
+      {
+        "class_name": "Cognito",
+        "import_statement": "from diagrams.aws.security import Cognito",
+        "module": "security"
+      },
+      {
+        "class_name": "DS",
+        "import_statement": "from diagrams.aws.security import DS",
+        "module": "security"
+      },
+      {
+        "class_name": "Detective",
+        "import_statement": "from diagrams.aws.security import Detective",
+        "module": "security"
+      },
+      {
+        "class_name": "DirectoryService",
+        "import_statement": "from diagrams.aws.security import DirectoryService",
+        "module": "security"
+      },
+      {
+        "class_name": "FMS",
+        "import_statement": "from diagrams.aws.security import FMS",
+        "module": "security"
+      },
+      {
+        "class_name": "FirewallManager",
+        "import_statement": "from diagrams.aws.security import FirewallManager",
+        "module": "security"
+      },
+      {
+        "class_name": "Guardduty",
+        "import_statement": "from diagrams.aws.security import Guardduty",
+        "module": "security"
+      },
+      {
+        "class_name": "IAM",
+        "import_statement": "from diagrams.aws.security import IAM",
+        "module": "security"
+      },
+      {
+        "class_name": "IAMAWSSts",
+        "import_statement": "from diagrams.aws.security import IAMAWSSts",
+        "module": "security"
+      },
+      {
+        "class_name": "IAMAccessAnalyzer",
+        "import_statement": "from diagrams.aws.security import IAMAccessAnalyzer",
+        "module": "security"
+      },
+      {
+        "class_name": "IAMPermissions",
+        "import_statement": "from diagrams.aws.security import IAMPermissions",
+        "module": "security"
+      },
+      {
+        "class_name": "IAMRole",
+        "import_statement": "from diagrams.aws.security import IAMRole",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIam",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIam",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamAWSSts",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamAWSSts",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamAWSStsAlternate",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamAWSStsAlternate",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamAccessAnalyzer",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamAccessAnalyzer",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamAddOn",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamAddOn",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamDataEncryptionKey",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamDataEncryptionKey",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamEncryptedData",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamEncryptedData",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamLongTermSecurityCredential",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamLongTermSecurityCredential",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamMfaToken",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamMfaToken",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamPermissions",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamPermissions",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamRole",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamRole",
+        "module": "security"
+      },
+      {
+        "class_name": "IdentityAndAccessManagementIamTemporarySecurityCredential",
+        "import_statement": "from diagrams.aws.security import IdentityAndAccessManagementIamTemporarySecurityCredential",
+        "module": "security"
+      },
+      {
+        "class_name": "Inspector",
+        "import_statement": "from diagrams.aws.security import Inspector",
+        "module": "security"
+      },
+      {
+        "class_name": "InspectorAgent",
+        "import_statement": "from diagrams.aws.security import InspectorAgent",
+        "module": "security"
+      },
+      {
+        "class_name": "KMS",
+        "import_statement": "from diagrams.aws.security import KMS",
+        "module": "security"
+      },
+      {
+        "class_name": "KeyManagementService",
+        "import_statement": "from diagrams.aws.security import KeyManagementService",
+        "module": "security"
+      },
+      {
+        "class_name": "Macie",
+        "import_statement": "from diagrams.aws.security import Macie",
+        "module": "security"
+      },
+      {
+        "class_name": "ManagedMicrosoftAd",
+        "import_statement": "from diagrams.aws.security import ManagedMicrosoftAd",
+        "module": "security"
+      },
+      {
+        "class_name": "RAM",
+        "import_statement": "from diagrams.aws.security import RAM",
+        "module": "security"
+      },
+      {
+        "class_name": "ResourceAccessManager",
+        "import_statement": "from diagrams.aws.security import ResourceAccessManager",
+        "module": "security"
+      },
+      {
+        "class_name": "SecretsManager",
+        "import_statement": "from diagrams.aws.security import SecretsManager",
+        "module": "security"
+      },
+      {
+        "class_name": "SecurityHub",
+        "import_statement": "from diagrams.aws.security import SecurityHub",
+        "module": "security"
+      },
+      {
+        "class_name": "SecurityHubFinding",
+        "import_statement": "from diagrams.aws.security import SecurityHubFinding",
+        "module": "security"
+      },
+      {
+        "class_name": "SecurityIdentityAndCompliance",
+        "import_statement": "from diagrams.aws.security import SecurityIdentityAndCompliance",
+        "module": "security"
+      },
+      {
+        "class_name": "Shield",
+        "import_statement": "from diagrams.aws.security import Shield",
+        "module": "security"
+      },
+      {
+        "class_name": "ShieldAdvanced",
+        "import_statement": "from diagrams.aws.security import ShieldAdvanced",
+        "module": "security"
+      },
+      {
+        "class_name": "SimpleAd",
+        "import_statement": "from diagrams.aws.security import SimpleAd",
+        "module": "security"
+      },
+      {
+        "class_name": "SingleSignOn",
+        "import_statement": "from diagrams.aws.security import SingleSignOn",
+        "module": "security"
+      },
+      {
+        "class_name": "WAF",
+        "import_statement": "from diagrams.aws.security import WAF",
+        "module": "security"
+      },
+      {
+        "class_name": "WAFFilteringRule",
+        "import_statement": "from diagrams.aws.security import WAFFilteringRule",
+        "module": "security"
+      },
+      {
+        "class_name": "_Security",
+        "import_statement": "from diagrams.aws.security import _Security",
+        "module": "security"
+      }
+    ],
+    "storage": [
+      {
+        "class_name": "Backup",
+        "import_statement": "from diagrams.aws.storage import Backup",
+        "module": "storage"
+      },
+      {
+        "class_name": "CDR",
+        "import_statement": "from diagrams.aws.storage import CDR",
+        "module": "storage"
+      },
+      {
+        "class_name": "CloudendureDisasterRecovery",
+        "import_statement": "from diagrams.aws.storage import CloudendureDisasterRecovery",
+        "module": "storage"
+      },
+      {
+        "class_name": "EBS",
+        "import_statement": "from diagrams.aws.storage import EBS",
+        "module": "storage"
+      },
+      {
+        "class_name": "EFS",
+        "import_statement": "from diagrams.aws.storage import EFS",
+        "module": "storage"
+      },
+      {
+        "class_name": "EFSInfrequentaccessPrimaryBg",
+        "import_statement": "from diagrams.aws.storage import EFSInfrequentaccessPrimaryBg",
+        "module": "storage"
+      },
+      {
+        "class_name": "EFSStandardPrimaryBg",
+        "import_statement": "from diagrams.aws.storage import EFSStandardPrimaryBg",
+        "module": "storage"
+      },
+      {
+        "class_name": "ElasticBlockStoreEBS",
+        "import_statement": "from diagrams.aws.storage import ElasticBlockStoreEBS",
+        "module": "storage"
+      },
+      {
+        "class_name": "ElasticBlockStoreEBSSnapshot",
+        "import_statement": "from diagrams.aws.storage import ElasticBlockStoreEBSSnapshot",
+        "module": "storage"
+      },
+      {
+        "class_name": "ElasticBlockStoreEBSVolume",
+        "import_statement": "from diagrams.aws.storage import ElasticBlockStoreEBSVolume",
+        "module": "storage"
+      },
+      {
+        "class_name": "ElasticFileSystemEFS",
+        "import_statement": "from diagrams.aws.storage import ElasticFileSystemEFS",
+        "module": "storage"
+      },
+      {
+        "class_name": "ElasticFileSystemEFSFileSystem",
+        "import_statement": "from diagrams.aws.storage import ElasticFileSystemEFSFileSystem",
+        "module": "storage"
+      },
+      {
+        "class_name": "FSx",
+        "import_statement": "from diagrams.aws.storage import FSx",
+        "module": "storage"
+      },
+      {
+        "class_name": "Fsx",
+        "import_statement": "from diagrams.aws.storage import Fsx",
+        "module": "storage"
+      },
+      {
+        "class_name": "FsxForLustre",
+        "import_statement": "from diagrams.aws.storage import FsxForLustre",
+        "module": "storage"
+      },
+      {
+        "class_name": "FsxForWindowsFileServer",
+        "import_statement": "from diagrams.aws.storage import FsxForWindowsFileServer",
+        "module": "storage"
+      },
+      {
+        "class_name": "MultipleVolumesResource",
+        "import_statement": "from diagrams.aws.storage import MultipleVolumesResource",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3",
+        "import_statement": "from diagrams.aws.storage import S3",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3AccessPoints",
+        "import_statement": "from diagrams.aws.storage import S3AccessPoints",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3Glacier",
+        "import_statement": "from diagrams.aws.storage import S3Glacier",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3GlacierArchive",
+        "import_statement": "from diagrams.aws.storage import S3GlacierArchive",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3GlacierVault",
+        "import_statement": "from diagrams.aws.storage import S3GlacierVault",
+        "module": "storage"
+      },
+      {
+        "class_name": "S3ObjectLambdaAccessPoints",
+        "import_statement": "from diagrams.aws.storage import S3ObjectLambdaAccessPoints",
+        "module": "storage"
+      },
+      {
+        "class_name": "SimpleStorageServiceS3",
+        "import_statement": "from diagrams.aws.storage import SimpleStorageServiceS3",
+        "module": "storage"
+      },
+      {
+        "class_name": "SimpleStorageServiceS3Bucket",
+        "import_statement": "from diagrams.aws.storage import SimpleStorageServiceS3Bucket",
+        "module": "storage"
+      },
+      {
+        "class_name": "SimpleStorageServiceS3BucketWithObjects",
+        "import_statement": "from diagrams.aws.storage import SimpleStorageServiceS3BucketWithObjects",
+        "module": "storage"
+      },
+      {
+        "class_name": "SimpleStorageServiceS3Object",
+        "import_statement": "from diagrams.aws.storage import SimpleStorageServiceS3Object",
+        "module": "storage"
+      },
+      {
+        "class_name": "SnowFamilySnowballImportExport",
+        "import_statement": "from diagrams.aws.storage import SnowFamilySnowballImportExport",
+        "module": "storage"
+      },
+      {
+        "class_name": "Snowball",
+        "import_statement": "from diagrams.aws.storage import Snowball",
+        "module": "storage"
+      },
+      {
+        "class_name": "SnowballEdge",
+        "import_statement": "from diagrams.aws.storage import SnowballEdge",
+        "module": "storage"
+      },
+      {
+        "class_name": "Snowmobile",
+        "import_statement": "from diagrams.aws.storage import Snowmobile",
+        "module": "storage"
+      },
+      {
+        "class_name": "Storage",
+        "import_statement": "from diagrams.aws.storage import Storage",
+        "module": "storage"
+      },
+      {
+        "class_name": "StorageGateway",
+        "import_statement": "from diagrams.aws.storage import StorageGateway",
+        "module": "storage"
+      },
+      {
+        "class_name": "StorageGatewayCachedVolume",
+        "import_statement": "from diagrams.aws.storage import StorageGatewayCachedVolume",
+        "module": "storage"
+      },
+      {
+        "class_name": "StorageGatewayNonCachedVolume",
+        "import_statement": "from diagrams.aws.storage import StorageGatewayNonCachedVolume",
+        "module": "storage"
+      },
+      {
+        "class_name": "StorageGatewayVirtualTapeLibrary",
+        "import_statement": "from diagrams.aws.storage import StorageGatewayVirtualTapeLibrary",
+        "module": "storage"
+      },
+      {
+        "class_name": "_Storage",
+        "import_statement": "from diagrams.aws.storage import _Storage",
+        "module": "storage"
+      }
+    ]
+  },
+  "service_mappings": {
+    "A4B": "from diagrams.aws.business import A4B",
+    "ACM": "from diagrams.aws.security import ACM",
+    "ADS": "from diagrams.aws.migration import ADS",
+    "ALB": "from diagrams.aws.network import ALB",
+    "AMI": "from diagrams.aws.compute import AMI",
+    "API Gateway": "from diagrams.aws.network import APIGateway",
+    "APIGateway": "from diagrams.aws.network import APIGateway",
+    "APIGatewayEndpoint": "from diagrams.aws.network import APIGatewayEndpoint",
+    "AWS Fargate": "from diagrams.aws.compute import Fargate",
+    "AWS Lambda": "from diagrams.aws.compute import Lambda",
+    "AdConnector": "from diagrams.aws.security import AdConnector",
+    "AlexaForBusiness": "from diagrams.aws.business import AlexaForBusiness",
+    "Amazon Aurora": "from diagrams.aws.database import Aurora",
+    "Amazon Cognito": "from diagrams.aws.security import Cognito",
+    "Amazon Redshift": "from diagrams.aws.database import Redshift",
+    "AmazonDevopsGuru": "from diagrams.aws.management import AmazonDevopsGuru",
+    "AmazonManagedGrafana": "from diagrams.aws.management import AmazonManagedGrafana",
+    "AmazonManagedPrometheus": "from diagrams.aws.management import AmazonManagedPrometheus",
+    "AmazonManagedWorkflowsApacheAirflow": "from diagrams.aws.management import AmazonManagedWorkflowsApacheAirflow",
+    "AmazonOpensearchService": "from diagrams.aws.analytics import AmazonOpensearchService",
+    "Amplify": "from diagrams.aws.mobile import Amplify",
+    "Analytics": "from diagrams.aws.analytics import Analytics",
+    "ApacheMxnetOnAWS": "from diagrams.aws.ml import ApacheMxnetOnAWS",
+    "Api Gateway": "from diagrams.aws.network import APIGateway",
+    "App Load Balancer": "from diagrams.aws.network import ALB",
+    "AppMesh": "from diagrams.aws.network import AppMesh",
+    "AppRunner": "from diagrams.aws.compute import AppRunner",
+    "Application Load Balancer": "from diagrams.aws.network import ALB",
+    "ApplicationAutoScaling": "from diagrams.aws.compute import ApplicationAutoScaling",
+    "ApplicationDiscoveryService": "from diagrams.aws.migration import ApplicationDiscoveryService",
+    "ApplicationIntegration": "from diagrams.aws.integration import ApplicationIntegration",
+    "Appstream20": "from diagrams.aws.enduser import Appstream20",
+    "Appsync": "from diagrams.aws.mobile import Appsync",
+    "ArVr": "from diagrams.aws.ar import ArVr",
+    "Artifact": "from diagrams.aws.security import Artifact",
+    "Athena": "from diagrams.aws.analytics import Athena",
+    "AugmentedAi": "from diagrams.aws.ml import AugmentedAi",
+    "Aurora": "from diagrams.aws.database import Aurora",
+    "AuroraInstance": "from diagrams.aws.database import AuroraInstance",
+    "AutoScaling": "from diagrams.aws.management import AutoScaling",
+    "Backup": "from diagrams.aws.storage import Backup",
+    "Batch": "from diagrams.aws.compute import Batch",
+    "Beanstalk": "from diagrams.aws.compute import ElasticBeanstalk",
+    "Bedrock": "from diagrams.aws.ml import Bedrock",
+    "Block Storage": "from diagrams.aws.storage import EBS",
+    "Blockchain": "from diagrams.aws.blockchain import Blockchain",
+    "BlockchainResource": "from diagrams.aws.blockchain import BlockchainResource",
+    "Braket": "from diagrams.aws.quantum import Braket",
+    "Budgets": "from diagrams.aws.cost import Budgets",
+    "BusinessApplications": "from diagrams.aws.business import BusinessApplications",
+    "CDN": "from diagrams.aws.network import CloudFront",
+    "CDR": "from diagrams.aws.storage import CDR",
+    "CEM": "from diagrams.aws.migration import CEM",
+    "CF": "from diagrams.aws.network import CF",
+    "CLB": "from diagrams.aws.network import CLB",
+    "CLI": "from diagrams.aws.devtools import CLI",
+    "CertificateAuthority": "from diagrams.aws.security import CertificateAuthority",
+    "CertificateManager": "from diagrams.aws.security import CertificateManager",
+    "Chatbot": "from diagrams.aws.management import Chatbot",
+    "Chime": "from diagrams.aws.business import Chime",
+    "Client": "from diagrams.aws.general import Client",
+    "ClientVpn": "from diagrams.aws.network import ClientVpn",
+    "Cloud Front": "from diagrams.aws.network import CloudFront",
+    "Cloud9": "from diagrams.aws.devtools import Cloud9",
+    "Cloud9Resource": "from diagrams.aws.devtools import Cloud9Resource",
+    "CloudDevelopmentKit": "from diagrams.aws.devtools import CloudDevelopmentKit",
+    "CloudDirectory": "from diagrams.aws.security import CloudDirectory",
+    "CloudFront": "from diagrams.aws.network import CloudFront",
+    "CloudFrontDownloadDistribution": "from diagrams.aws.network import CloudFrontDownloadDistribution",
+    "CloudFrontEdgeLocation": "from diagrams.aws.network import CloudFrontEdgeLocation",
+    "CloudFrontStreamingDistribution": "from diagrams.aws.network import CloudFrontStreamingDistribution",
+    "CloudHSM": "from diagrams.aws.security import CloudHSM",
+    "CloudMap": "from diagrams.aws.network import CloudMap",
+    "CloudWatch Events": "from diagrams.aws.integration import Eventbridge",
+    "CloudendureDisasterRecovery": "from diagrams.aws.storage import CloudendureDisasterRecovery",
+    "CloudendureMigration": "from diagrams.aws.migration import CloudendureMigration",
+    "Cloudformation": "from diagrams.aws.management import Cloudformation",
+    "CloudformationChangeSet": "from diagrams.aws.management import CloudformationChangeSet",
+    "CloudformationStack": "from diagrams.aws.management import CloudformationStack",
+    "CloudformationTemplate": "from diagrams.aws.management import CloudformationTemplate",
+    "Cloudhsm": "from diagrams.aws.security import Cloudhsm",
+    "Cloudsearch": "from diagrams.aws.analytics import Cloudsearch",
+    "CloudsearchSearchDocuments": "from diagrams.aws.analytics import CloudsearchSearchDocuments",
+    "Cloudtrail": "from diagrams.aws.management import Cloudtrail",
+    "Cloudwatch": "from diagrams.aws.management import Cloudwatch",
+    "CloudwatchAlarm": "from diagrams.aws.management import CloudwatchAlarm",
+    "CloudwatchEventEventBased": "from diagrams.aws.management import CloudwatchEventEventBased",
+    "CloudwatchEventTimeBased": "from diagrams.aws.management import CloudwatchEventTimeBased",
+    "CloudwatchLogs": "from diagrams.aws.management import CloudwatchLogs",
+    "CloudwatchRule": "from diagrams.aws.management import CloudwatchRule",
+    "Codeartifact": "from diagrams.aws.devtools import Codeartifact",
+    "Codebuild": "from diagrams.aws.devtools import Codebuild",
+    "Codecommit": "from diagrams.aws.devtools import Codecommit",
+    "Codedeploy": "from diagrams.aws.devtools import Codedeploy",
+    "Codeguru": "from diagrams.aws.management import Codeguru",
+    "Codepipeline": "from diagrams.aws.devtools import Codepipeline",
+    "Codestar": "from diagrams.aws.devtools import Codestar",
+    "Cognito": "from diagrams.aws.security import Cognito",
+    "CommandLineInterface": "from diagrams.aws.management import CommandLineInterface",
+    "Comprehend": "from diagrams.aws.ml import Comprehend",
+    "Compute": "from diagrams.aws.compute import Compute",
+    "ComputeOptimizer": "from diagrams.aws.compute import ComputeOptimizer",
+    "Config": "from diagrams.aws.management import Config",
+    "Connect": "from diagrams.aws.engagement import Connect",
+    "ConsoleMobileApplication": "from diagrams.aws.integration import ConsoleMobileApplication",
+    "Container Service": "from diagrams.aws.compute import ECS",
+    "ControlTower": "from diagrams.aws.management import ControlTower",
+    "CostAndUsageReport": "from diagrams.aws.cost import CostAndUsageReport",
+    "CostExplorer": "from diagrams.aws.cost import CostExplorer",
+    "CostManagement": "from diagrams.aws.cost import CostManagement",
+    "CustomerEnablement": "from diagrams.aws.enablement import CustomerEnablement",
+    "CustomerEngagement": "from diagrams.aws.engagement import CustomerEngagement",
+    "DAX": "from diagrams.aws.database import DAX",
+    "DB": "from diagrams.aws.database import DB",
+    "DDB": "from diagrams.aws.database import DDB",
+    "DLC": "from diagrams.aws.ml import DLC",
+    "DMS": "from diagrams.aws.migration import DMS",
+    "DNS": "from diagrams.aws.network import Route53",
+    "DS": "from diagrams.aws.security import DS",
+    "DataLakeResource": "from diagrams.aws.analytics import DataLakeResource",
+    "DataPipeline": "from diagrams.aws.analytics import DataPipeline",
+    "Database": "from diagrams.aws.database import Database",
+    "DatabaseMigrationService": "from diagrams.aws.migration import DatabaseMigrationService",
+    "DatabaseMigrationServiceDatabaseMigrationWorkflow": "from diagrams.aws.database import DatabaseMigrationServiceDatabaseMigrationWorkflow",
+    "Datasync": "from diagrams.aws.migration import Datasync",
+    "DatasyncAgent": "from diagrams.aws.migration import DatasyncAgent",
+    "DeepLearningAmis": "from diagrams.aws.ml import DeepLearningAmis",
+    "DeepLearningContainers": "from diagrams.aws.ml import DeepLearningContainers",
+    "Deepcomposer": "from diagrams.aws.ml import Deepcomposer",
+    "Deeplens": "from diagrams.aws.ml import Deeplens",
+    "Deepracer": "from diagrams.aws.ml import Deepracer",
+    "DesktopAndAppStreaming": "from diagrams.aws.enduser import DesktopAndAppStreaming",
+    "Detective": "from diagrams.aws.security import Detective",
+    "DevTools": "from diagrams.aws.devtools import DevTools",
+    "DeveloperTools": "from diagrams.aws.devtools import DeveloperTools",
+    "DeviceFarm": "from diagrams.aws.mobile import DeviceFarm",
+    "DirectConnect": "from diagrams.aws.network import DirectConnect",
+    "DirectoryService": "from diagrams.aws.security import DirectoryService",
+    "Disk": "from diagrams.aws.general import Disk",
+    "DocumentDB": "from diagrams.aws.database import DocumentDB",
+    "DocumentdbMongodbCompatibility": "from diagrams.aws.database import DocumentdbMongodbCompatibility",
+    "Dynamo DB": "from diagrams.aws.database import Dynamodb",
+    "DynamoDB": "from diagrams.aws.database import Dynamodb",
+    "DynamoDb": "from diagrams.aws.database import Dynamodb",
+    "Dynamodb": "from diagrams.aws.database import Dynamodb",
+    "DynamodbAttribute": "from diagrams.aws.database import DynamodbAttribute",
+    "DynamodbAttributes": "from diagrams.aws.database import DynamodbAttributes",
+    "DynamodbDax": "from diagrams.aws.database import DynamodbDax",
+    "DynamodbGSI": "from diagrams.aws.database import DynamodbGSI",
+    "DynamodbGlobalSecondaryIndex": "from diagrams.aws.database import DynamodbGlobalSecondaryIndex",
+    "DynamodbItem": "from diagrams.aws.database import DynamodbItem",
+    "DynamodbItems": "from diagrams.aws.database import DynamodbItems",
+    "DynamodbStreams": "from diagrams.aws.database import DynamodbStreams",
+    "DynamodbTable": "from diagrams.aws.database import DynamodbTable",
+    "EB": "from diagrams.aws.compute import EB",
+    "EBS": "from diagrams.aws.storage import EBS",
+    "EC2": "from diagrams.aws.compute import EC2",
+    "EC2 Instance": "from diagrams.aws.compute import EC2",
+    "EC2 Instances": "from diagrams.aws.compute import EC2",
+    "EC2Ami": "from diagrams.aws.compute import EC2Ami",
+    "EC2AutoScaling": "from diagrams.aws.compute import EC2AutoScaling",
+    "EC2ContainerRegistry": "from diagrams.aws.compute import EC2ContainerRegistry",
+    "EC2ContainerRegistryImage": "from diagrams.aws.compute import EC2ContainerRegistryImage",
+    "EC2ContainerRegistryRegistry": "from diagrams.aws.compute import EC2ContainerRegistryRegistry",
+    "EC2ElasticIpAddress": "from diagrams.aws.compute import EC2ElasticIpAddress",
+    "EC2ImageBuilder": "from diagrams.aws.compute import EC2ImageBuilder",
+    "EC2Instance": "from diagrams.aws.compute import EC2Instance",
+    "EC2Instances": "from diagrams.aws.compute import EC2Instances",
+    "EC2Rescue": "from diagrams.aws.compute import EC2Rescue",
+    "EC2SpotInstance": "from diagrams.aws.compute import EC2SpotInstance",
+    "ECR": "from diagrams.aws.compute import ECR",
+    "ECS": "from diagrams.aws.compute import ECS",
+    "EFS": "from diagrams.aws.storage import EFS",
+    "EFSInfrequentaccessPrimaryBg": "from diagrams.aws.storage import EFSInfrequentaccessPrimaryBg",
+    "EFSStandardPrimaryBg": "from diagrams.aws.storage import EFSStandardPrimaryBg",
+    "EKS": "from diagrams.aws.compute import EKS",
+    "ELB": "from diagrams.aws.network import ELB",
+    "EMR": "from diagrams.aws.analytics import EMR",
+    "EMRCluster": "from diagrams.aws.analytics import EMRCluster",
+    "EMREngine": "from diagrams.aws.analytics import EMREngine",
+    "EMREngineMaprM3": "from diagrams.aws.analytics import EMREngineMaprM3",
+    "EMREngineMaprM5": "from diagrams.aws.analytics import EMREngineMaprM5",
+    "EMREngineMaprM7": "from diagrams.aws.analytics import EMREngineMaprM7",
+    "EMRHdfsCluster": "from diagrams.aws.analytics import EMRHdfsCluster",
+    "ES": "from diagrams.aws.analytics import ES",
+    "ElastiCache": "from diagrams.aws.database import Elasticache",
+    "Elastic Beanstalk": "from diagrams.aws.compute import ElasticBeanstalk",
+    "Elastic Block Store": "from diagrams.aws.storage import EBS",
+    "Elastic Cache": "from diagrams.aws.database import Elasticache",
+    "Elastic Compute Cloud": "from diagrams.aws.compute import EC2",
+    "Elastic Container Service": "from diagrams.aws.compute import ECS",
+    "Elastic Kubernetes Service": "from diagrams.aws.compute import EKS",
+    "Elastic Load Balancer": "from diagrams.aws.network import ELB",
+    "ElasticBeanstalk": "from diagrams.aws.compute import ElasticBeanstalk",
+    "ElasticBeanstalkApplication": "from diagrams.aws.compute import ElasticBeanstalkApplication",
+    "ElasticBeanstalkDeployment": "from diagrams.aws.compute import ElasticBeanstalkDeployment",
+    "ElasticBlockStoreEBS": "from diagrams.aws.storage import ElasticBlockStoreEBS",
+    "ElasticBlockStoreEBSSnapshot": "from diagrams.aws.storage import ElasticBlockStoreEBSSnapshot",
+    "ElasticBlockStoreEBSVolume": "from diagrams.aws.storage import ElasticBlockStoreEBSVolume",
+    "ElasticContainerService": "from diagrams.aws.compute import ElasticContainerService",
+    "ElasticContainerServiceContainer": "from diagrams.aws.compute import ElasticContainerServiceContainer",
+    "ElasticContainerServiceService": "from diagrams.aws.compute import ElasticContainerServiceService",
+    "ElasticFileSystemEFS": "from diagrams.aws.storage import ElasticFileSystemEFS",
+    "ElasticFileSystemEFSFileSystem": "from diagrams.aws.storage import ElasticFileSystemEFSFileSystem",
+    "ElasticInference": "from diagrams.aws.ml import ElasticInference",
+    "ElasticKubernetesService": "from diagrams.aws.compute import ElasticKubernetesService",
+    "ElasticLoadBalancing": "from diagrams.aws.network import ElasticLoadBalancing",
+    "ElasticTranscoder": "from diagrams.aws.media import ElasticTranscoder",
+    "Elasticache": "from diagrams.aws.database import Elasticache",
+    "ElasticacheCacheNode": "from diagrams.aws.database import ElasticacheCacheNode",
+    "ElasticacheForMemcached": "from diagrams.aws.database import ElasticacheForMemcached",
+    "ElasticacheForRedis": "from diagrams.aws.database import ElasticacheForRedis",
+    "ElasticsearchService": "from diagrams.aws.analytics import ElasticsearchService",
+    "ElbApplicationLoadBalancer": "from diagrams.aws.network import ElbApplicationLoadBalancer",
+    "ElbClassicLoadBalancer": "from diagrams.aws.network import ElbClassicLoadBalancer",
+    "ElbNetworkLoadBalancer": "from diagrams.aws.network import ElbNetworkLoadBalancer",
+    "ElementalConductor": "from diagrams.aws.media import ElementalConductor",
+    "ElementalDelta": "from diagrams.aws.media import ElementalDelta",
+    "ElementalLive": "from diagrams.aws.media import ElementalLive",
+    "ElementalMediaconnect": "from diagrams.aws.media import ElementalMediaconnect",
+    "ElementalMediaconvert": "from diagrams.aws.media import ElementalMediaconvert",
+    "ElementalMedialive": "from diagrams.aws.media import ElementalMedialive",
+    "ElementalMediapackage": "from diagrams.aws.media import ElementalMediapackage",
+    "ElementalMediastore": "from diagrams.aws.media import ElementalMediastore",
+    "ElementalMediatailor": "from diagrams.aws.media import ElementalMediatailor",
+    "ElementalServer": "from diagrams.aws.media import ElementalServer",
+    "Endpoint": "from diagrams.aws.network import Endpoint",
+    "Event Bridge": "from diagrams.aws.integration import Eventbridge",
+    "EventBridge": "from diagrams.aws.integration import Eventbridge",
+    "EventResource": "from diagrams.aws.integration import EventResource",
+    "Eventbridge": "from diagrams.aws.integration import Eventbridge",
+    "EventbridgeCustomEventBusResource": "from diagrams.aws.integration import EventbridgeCustomEventBusResource",
+    "EventbridgeDefaultEventBusResource": "from diagrams.aws.integration import EventbridgeDefaultEventBusResource",
+    "EventbridgeSaasPartnerEventBusResource": "from diagrams.aws.integration import EventbridgeSaasPartnerEventBusResource",
+    "ExpressWorkflows": "from diagrams.aws.integration import ExpressWorkflows",
+    "FMS": "from diagrams.aws.security import FMS",
+    "FSx": "from diagrams.aws.storage import FSx",
+    "Fargate": "from diagrams.aws.compute import Fargate",
+    "FirewallManager": "from diagrams.aws.security import FirewallManager",
+    "Forecast": "from diagrams.aws.ml import Forecast",
+    "Forums": "from diagrams.aws.general import Forums",
+    "FraudDetector": "from diagrams.aws.ml import FraudDetector",
+    "FreeRTOS": "from diagrams.aws.iot import FreeRTOS",
+    "Freertos": "from diagrams.aws.iot import Freertos",
+    "Fsx": "from diagrams.aws.storage import Fsx",
+    "FsxForLustre": "from diagrams.aws.storage import FsxForLustre",
+    "FsxForWindowsFileServer": "from diagrams.aws.storage import FsxForWindowsFileServer",
+    "GAX": "from diagrams.aws.network import GAX",
+    "GameTech": "from diagrams.aws.game import GameTech",
+    "Gamelift": "from diagrams.aws.game import Gamelift",
+    "General": "from diagrams.aws.general import General",
+    "GenericDatabase": "from diagrams.aws.general import GenericDatabase",
+    "GenericFirewall": "from diagrams.aws.general import GenericFirewall",
+    "GenericOfficeBuilding": "from diagrams.aws.general import GenericOfficeBuilding",
+    "GenericSDK": "from diagrams.aws.general import GenericSDK",
+    "GenericSamlToken": "from diagrams.aws.general import GenericSamlToken",
+    "GlobalAccelerator": "from diagrams.aws.network import GlobalAccelerator",
+    "Glue": "from diagrams.aws.analytics import Glue",
+    "GlueCrawlers": "from diagrams.aws.analytics import GlueCrawlers",
+    "GlueDataCatalog": "from diagrams.aws.analytics import GlueDataCatalog",
+    "GroundStation": "from diagrams.aws.satellite import GroundStation",
+    "Guardduty": "from diagrams.aws.security import Guardduty",
+    "IAM": "from diagrams.aws.security import IAM",
+    "IAMAWSSts": "from diagrams.aws.security import IAMAWSSts",
+    "IAMAccessAnalyzer": "from diagrams.aws.security import IAMAccessAnalyzer",
+    "IAMPermissions": "from diagrams.aws.security import IAMPermissions",
+    "IAMRole": "from diagrams.aws.security import IAMRole",
+    "IGW": "from diagrams.aws.network import IGW",
+    "Identity and Access Management": "from diagrams.aws.security import IAM",
+    "IdentityAndAccessManagementIam": "from diagrams.aws.security import IdentityAndAccessManagementIam",
+    "IdentityAndAccessManagementIamAWSSts": "from diagrams.aws.security import IdentityAndAccessManagementIamAWSSts",
+    "IdentityAndAccessManagementIamAWSStsAlternate": "from diagrams.aws.security import IdentityAndAccessManagementIamAWSStsAlternate",
+    "IdentityAndAccessManagementIamAccessAnalyzer": "from diagrams.aws.security import IdentityAndAccessManagementIamAccessAnalyzer",
+    "IdentityAndAccessManagementIamAddOn": "from diagrams.aws.security import IdentityAndAccessManagementIamAddOn",
+    "IdentityAndAccessManagementIamDataEncryptionKey": "from diagrams.aws.security import IdentityAndAccessManagementIamDataEncryptionKey",
+    "IdentityAndAccessManagementIamEncryptedData": "from diagrams.aws.security import IdentityAndAccessManagementIamEncryptedData",
+    "IdentityAndAccessManagementIamLongTermSecurityCredential": "from diagrams.aws.security import IdentityAndAccessManagementIamLongTermSecurityCredential",
+    "IdentityAndAccessManagementIamMfaToken": "from diagrams.aws.security import IdentityAndAccessManagementIamMfaToken",
+    "IdentityAndAccessManagementIamPermissions": "from diagrams.aws.security import IdentityAndAccessManagementIamPermissions",
+    "IdentityAndAccessManagementIamRole": "from diagrams.aws.security import IdentityAndAccessManagementIamRole",
+    "IdentityAndAccessManagementIamTemporarySecurityCredential": "from diagrams.aws.security import IdentityAndAccessManagementIamTemporarySecurityCredential",
+    "Inspector": "from diagrams.aws.security import Inspector",
+    "InspectorAgent": "from diagrams.aws.security import InspectorAgent",
+    "InternetAlt1": "from diagrams.aws.general import InternetAlt1",
+    "InternetAlt2": "from diagrams.aws.general import InternetAlt2",
+    "InternetGateway": "from diagrams.aws.network import InternetGateway",
+    "InternetOfThings": "from diagrams.aws.iot import InternetOfThings",
+    "Iot1Click": "from diagrams.aws.iot import Iot1Click",
+    "IotAction": "from diagrams.aws.iot import IotAction",
+    "IotActuator": "from diagrams.aws.iot import IotActuator",
+    "IotAlexaEcho": "from diagrams.aws.iot import IotAlexaEcho",
+    "IotAlexaEnabledDevice": "from diagrams.aws.iot import IotAlexaEnabledDevice",
+    "IotAlexaSkill": "from diagrams.aws.iot import IotAlexaSkill",
+    "IotAlexaVoiceService": "from diagrams.aws.iot import IotAlexaVoiceService",
+    "IotAnalytics": "from diagrams.aws.iot import IotAnalytics",
+    "IotAnalyticsChannel": "from diagrams.aws.iot import IotAnalyticsChannel",
+    "IotAnalyticsDataSet": "from diagrams.aws.iot import IotAnalyticsDataSet",
+    "IotAnalyticsDataStore": "from diagrams.aws.iot import IotAnalyticsDataStore",
+    "IotAnalyticsNotebook": "from diagrams.aws.iot import IotAnalyticsNotebook",
+    "IotAnalyticsPipeline": "from diagrams.aws.iot import IotAnalyticsPipeline",
+    "IotBank": "from diagrams.aws.iot import IotBank",
+    "IotBicycle": "from diagrams.aws.iot import IotBicycle",
+    "IotBoard": "from diagrams.aws.iot import IotBoard",
+    "IotButton": "from diagrams.aws.iot import IotButton",
+    "IotCamera": "from diagrams.aws.iot import IotCamera",
+    "IotCar": "from diagrams.aws.iot import IotCar",
+    "IotCart": "from diagrams.aws.iot import IotCart",
+    "IotCertificate": "from diagrams.aws.iot import IotCertificate",
+    "IotCoffeePot": "from diagrams.aws.iot import IotCoffeePot",
+    "IotCore": "from diagrams.aws.iot import IotCore",
+    "IotDesiredState": "from diagrams.aws.iot import IotDesiredState",
+    "IotDeviceDefender": "from diagrams.aws.iot import IotDeviceDefender",
+    "IotDeviceGateway": "from diagrams.aws.iot import IotDeviceGateway",
+    "IotDeviceManagement": "from diagrams.aws.iot import IotDeviceManagement",
+    "IotDoorLock": "from diagrams.aws.iot import IotDoorLock",
+    "IotEvents": "from diagrams.aws.iot import IotEvents",
+    "IotFactory": "from diagrams.aws.iot import IotFactory",
+    "IotFireTv": "from diagrams.aws.iot import IotFireTv",
+    "IotFireTvStick": "from diagrams.aws.iot import IotFireTvStick",
+    "IotGeneric": "from diagrams.aws.iot import IotGeneric",
+    "IotGreengrass": "from diagrams.aws.iot import IotGreengrass",
+    "IotGreengrassConnector": "from diagrams.aws.iot import IotGreengrassConnector",
+    "IotHardwareBoard": "from diagrams.aws.iot import IotHardwareBoard",
+    "IotHouse": "from diagrams.aws.iot import IotHouse",
+    "IotHttp": "from diagrams.aws.iot import IotHttp",
+    "IotHttp2": "from diagrams.aws.iot import IotHttp2",
+    "IotJobs": "from diagrams.aws.iot import IotJobs",
+    "IotLambda": "from diagrams.aws.iot import IotLambda",
+    "IotLightbulb": "from diagrams.aws.iot import IotLightbulb",
+    "IotMedicalEmergency": "from diagrams.aws.iot import IotMedicalEmergency",
+    "IotMqtt": "from diagrams.aws.iot import IotMqtt",
+    "IotOverTheAirUpdate": "from diagrams.aws.iot import IotOverTheAirUpdate",
+    "IotPolicy": "from diagrams.aws.iot import IotPolicy",
+    "IotPolicyEmergency": "from diagrams.aws.iot import IotPolicyEmergency",
+    "IotReportedState": "from diagrams.aws.iot import IotReportedState",
+    "IotRule": "from diagrams.aws.iot import IotRule",
+    "IotSensor": "from diagrams.aws.iot import IotSensor",
+    "IotServo": "from diagrams.aws.iot import IotServo",
+    "IotShadow": "from diagrams.aws.iot import IotShadow",
+    "IotSimulator": "from diagrams.aws.iot import IotSimulator",
+    "IotSitewise": "from diagrams.aws.iot import IotSitewise",
+    "IotThermostat": "from diagrams.aws.iot import IotThermostat",
+    "IotThingsGraph": "from diagrams.aws.iot import IotThingsGraph",
+    "IotTopic": "from diagrams.aws.iot import IotTopic",
+    "IotTravel": "from diagrams.aws.iot import IotTravel",
+    "IotUtility": "from diagrams.aws.iot import IotUtility",
+    "IotWindfarm": "from diagrams.aws.iot import IotWindfarm",
+    "Iq": "from diagrams.aws.enablement import Iq",
+    "KMS": "from diagrams.aws.security import KMS",
+    "Kendra": "from diagrams.aws.ml import Kendra",
+    "Key Management Service": "from diagrams.aws.security import KMS",
+    "KeyManagementService": "from diagrams.aws.security import KeyManagementService",
+    "KeyspacesManagedApacheCassandraService": "from diagrams.aws.database import KeyspacesManagedApacheCassandraService",
+    "Kinesis": "from diagrams.aws.analytics import Kinesis",
+    "KinesisDataAnalytics": "from diagrams.aws.analytics import KinesisDataAnalytics",
+    "KinesisDataFirehose": "from diagrams.aws.analytics import KinesisDataFirehose",
+    "KinesisDataStreams": "from diagrams.aws.analytics import KinesisDataStreams",
+    "KinesisVideoStreams": "from diagrams.aws.media import KinesisVideoStreams",
+    "Kubernetes": "from diagrams.aws.compute import EKS",
+    "LakeFormation": "from diagrams.aws.analytics import LakeFormation",
+    "Lambda": "from diagrams.aws.compute import Lambda",
+    "Lambda Function": "from diagrams.aws.compute import Lambda",
+    "Lambda Functions": "from diagrams.aws.compute import Lambda",
+    "LambdaFunction": "from diagrams.aws.compute import LambdaFunction",
+    "Lex": "from diagrams.aws.ml import Lex",
+    "LicenseManager": "from diagrams.aws.management import LicenseManager",
+    "Lightsail": "from diagrams.aws.compute import Lightsail",
+    "Load Balancer": "from diagrams.aws.network import ELB",
+    "LocalZones": "from diagrams.aws.compute import LocalZones",
+    "MAT": "from diagrams.aws.migration import MAT",
+    "MQ": "from diagrams.aws.integration import MQ",
+    "MachineLearning": "from diagrams.aws.ml import MachineLearning",
+    "Macie": "from diagrams.aws.security import Macie",
+    "ManagedBlockchain": "from diagrams.aws.blockchain import ManagedBlockchain",
+    "ManagedMicrosoftAd": "from diagrams.aws.security import ManagedMicrosoftAd",
+    "ManagedServices": "from diagrams.aws.management import ManagedServices",
+    "ManagedStreamingForKafka": "from diagrams.aws.analytics import ManagedStreamingForKafka",
+    "ManagementAndGovernance": "from diagrams.aws.management import ManagementAndGovernance",
+    "ManagementConsole": "from diagrams.aws.management import ManagementConsole",
+    "Marketplace": "from diagrams.aws.general import Marketplace",
+    "MediaServices": "from diagrams.aws.media import MediaServices",
+    "Memcached": "from diagrams.aws.database import Elasticache",
+    "MigrationAndTransfer": "from diagrams.aws.migration import MigrationAndTransfer",
+    "MigrationHub": "from diagrams.aws.migration import MigrationHub",
+    "Mobile": "from diagrams.aws.mobile import Mobile",
+    "MobileClient": "from diagrams.aws.general import MobileClient",
+    "Multimedia": "from diagrams.aws.general import Multimedia",
+    "MultipleVolumesResource": "from diagrams.aws.storage import MultipleVolumesResource",
+    "NATGateway": "from diagrams.aws.network import NATGateway",
+    "NLB": "from diagrams.aws.network import NLB",
+    "Nacl": "from diagrams.aws.network import Nacl",
+    "Neptune": "from diagrams.aws.database import Neptune",
+    "NetworkFirewall": "from diagrams.aws.network import NetworkFirewall",
+    "NetworkingAndContentDelivery": "from diagrams.aws.network import NetworkingAndContentDelivery",
+    "Object Storage": "from diagrams.aws.storage import S3",
+    "OfficeBuilding": "from diagrams.aws.general import OfficeBuilding",
+    "Opsworks": "from diagrams.aws.management import Opsworks",
+    "OpsworksApps": "from diagrams.aws.management import OpsworksApps",
+    "OpsworksDeployments": "from diagrams.aws.management import OpsworksDeployments",
+    "OpsworksInstances": "from diagrams.aws.management import OpsworksInstances",
+    "OpsworksLayers": "from diagrams.aws.management import OpsworksLayers",
+    "OpsworksMonitoring": "from diagrams.aws.management import OpsworksMonitoring",
+    "OpsworksPermissions": "from diagrams.aws.management import OpsworksPermissions",
+    "OpsworksResources": "from diagrams.aws.management import OpsworksResources",
+    "OpsworksStack": "from diagrams.aws.management import OpsworksStack",
+    "Organizations": "from diagrams.aws.management import Organizations",
+    "OrganizationsAccount": "from diagrams.aws.management import OrganizationsAccount",
+    "OrganizationsOrganizationalUnit": "from diagrams.aws.management import OrganizationsOrganizationalUnit",
+    "Outposts": "from diagrams.aws.compute import Outposts",
+    "ParameterStore": "from diagrams.aws.management import ParameterStore",
+    "PersonalHealthDashboard": "from diagrams.aws.management import PersonalHealthDashboard",
+    "Personalize": "from diagrams.aws.ml import Personalize",
+    "Pinpoint": "from diagrams.aws.mobile import Pinpoint",
+    "Polly": "from diagrams.aws.ml import Polly",
+    "PrivateSubnet": "from diagrams.aws.network import PrivateSubnet",
+    "Privatelink": "from diagrams.aws.network import Privatelink",
+    "ProfessionalServices": "from diagrams.aws.enablement import ProfessionalServices",
+    "Proton": "from diagrams.aws.management import Proton",
+    "PublicSubnet": "from diagrams.aws.network import PublicSubnet",
+    "QLDB": "from diagrams.aws.database import QLDB",
+    "QuantumLedgerDatabaseQldb": "from diagrams.aws.database import QuantumLedgerDatabaseQldb",
+    "QuantumTechnologies": "from diagrams.aws.quantum import QuantumTechnologies",
+    "Quicksight": "from diagrams.aws.analytics import Quicksight",
+    "RAM": "from diagrams.aws.security import RAM",
+    "RDS": "from diagrams.aws.database import RDS",
+    "RDSInstance": "from diagrams.aws.database import RDSInstance",
+    "RDSMariadbInstance": "from diagrams.aws.database import RDSMariadbInstance",
+    "RDSMysqlInstance": "from diagrams.aws.database import RDSMysqlInstance",
+    "RDSOnVmware": "from diagrams.aws.database import RDSOnVmware",
+    "RDSOracleInstance": "from diagrams.aws.database import RDSOracleInstance",
+    "RDSPostgresqlInstance": "from diagrams.aws.database import RDSPostgresqlInstance",
+    "RDSSqlServerInstance": "from diagrams.aws.database import RDSSqlServerInstance",
+    "Redis": "from diagrams.aws.database import Elasticache",
+    "Redshift": "from diagrams.aws.database import Redshift",
+    "RedshiftDenseComputeNode": "from diagrams.aws.database import RedshiftDenseComputeNode",
+    "RedshiftDenseStorageNode": "from diagrams.aws.database import RedshiftDenseStorageNode",
+    "Rekognition": "from diagrams.aws.ml import Rekognition",
+    "RekognitionImage": "from diagrams.aws.ml import RekognitionImage",
+    "RekognitionVideo": "from diagrams.aws.ml import RekognitionVideo",
+    "Relational Database": "from diagrams.aws.database import RDS",
+    "Relational Database Service": "from diagrams.aws.database import RDS",
+    "ReservedInstanceReporting": "from diagrams.aws.cost import ReservedInstanceReporting",
+    "ResourceAccessManager": "from diagrams.aws.security import ResourceAccessManager",
+    "Robomaker": "from diagrams.aws.robotics import Robomaker",
+    "RobomakerCloudExtensionRos": "from diagrams.aws.robotics import RobomakerCloudExtensionRos",
+    "RobomakerDevelopmentEnvironment": "from diagrams.aws.robotics import RobomakerDevelopmentEnvironment",
+    "RobomakerFleetManagement": "from diagrams.aws.robotics import RobomakerFleetManagement",
+    "RobomakerSimulator": "from diagrams.aws.robotics import RobomakerSimulator",
+    "Robotics": "from diagrams.aws.robotics import Robotics",
+    "Route 53": "from diagrams.aws.network import Route53",
+    "Route53": "from diagrams.aws.network import Route53",
+    "Route53HostedZone": "from diagrams.aws.network import Route53HostedZone",
+    "RouteTable": "from diagrams.aws.network import RouteTable",
+    "S3": "from diagrams.aws.storage import S3",
+    "S3AccessPoints": "from diagrams.aws.storage import S3AccessPoints",
+    "S3Glacier": "from diagrams.aws.storage import S3Glacier",
+    "S3GlacierArchive": "from diagrams.aws.storage import S3GlacierArchive",
+    "S3GlacierVault": "from diagrams.aws.storage import S3GlacierVault",
+    "S3ObjectLambdaAccessPoints": "from diagrams.aws.storage import S3ObjectLambdaAccessPoints",
+    "SAR": "from diagrams.aws.compute import SAR",
+    "SDK": "from diagrams.aws.general import SDK",
+    "SES": "from diagrams.aws.engagement import SES",
+    "SF": "from diagrams.aws.integration import SF",
+    "SMS": "from diagrams.aws.migration import SMS",
+    "SNS": "from diagrams.aws.integration import SNS",
+    "SQS": "from diagrams.aws.integration import SQS",
+    "SSM": "from diagrams.aws.management import SSM",
+    "Sagemaker": "from diagrams.aws.ml import Sagemaker",
+    "SagemakerGroundTruth": "from diagrams.aws.ml import SagemakerGroundTruth",
+    "SagemakerModel": "from diagrams.aws.ml import SagemakerModel",
+    "SagemakerNotebook": "from diagrams.aws.ml import SagemakerNotebook",
+    "SagemakerTrainingJob": "from diagrams.aws.ml import SagemakerTrainingJob",
+    "SamlToken": "from diagrams.aws.general import SamlToken",
+    "Satellite": "from diagrams.aws.satellite import Satellite",
+    "SavingsPlans": "from diagrams.aws.cost import SavingsPlans",
+    "SecretsManager": "from diagrams.aws.security import SecretsManager",
+    "SecurityHub": "from diagrams.aws.security import SecurityHub",
+    "SecurityHubFinding": "from diagrams.aws.security import SecurityHubFinding",
+    "SecurityIdentityAndCompliance": "from diagrams.aws.security import SecurityIdentityAndCompliance",
+    "ServerMigrationService": "from diagrams.aws.migration import ServerMigrationService",
+    "ServerlessApplicationRepository": "from diagrams.aws.compute import ServerlessApplicationRepository",
+    "ServiceCatalog": "from diagrams.aws.management import ServiceCatalog",
+    "Shield": "from diagrams.aws.security import Shield",
+    "ShieldAdvanced": "from diagrams.aws.security import ShieldAdvanced",
+    "Simple Notification Service": "from diagrams.aws.integration import SNS",
+    "Simple Queue Service": "from diagrams.aws.integration import SQS",
+    "Simple Storage Service": "from diagrams.aws.storage import S3",
+    "SimpleAd": "from diagrams.aws.security import SimpleAd",
+    "SimpleEmailServiceSes": "from diagrams.aws.engagement import SimpleEmailServiceSes",
+    "SimpleEmailServiceSesEmail": "from diagrams.aws.engagement import SimpleEmailServiceSesEmail",
+    "SimpleNotificationServiceSns": "from diagrams.aws.integration import SimpleNotificationServiceSns",
+    "SimpleNotificationServiceSnsEmailNotification": "from diagrams.aws.integration import SimpleNotificationServiceSnsEmailNotification",
+    "SimpleNotificationServiceSnsHttpNotification": "from diagrams.aws.integration import SimpleNotificationServiceSnsHttpNotification",
+    "SimpleNotificationServiceSnsTopic": "from diagrams.aws.integration import SimpleNotificationServiceSnsTopic",
+    "SimpleQueueServiceSqs": "from diagrams.aws.integration import SimpleQueueServiceSqs",
+    "SimpleQueueServiceSqsMessage": "from diagrams.aws.integration import SimpleQueueServiceSqsMessage",
+    "SimpleQueueServiceSqsQueue": "from diagrams.aws.integration import SimpleQueueServiceSqsQueue",
+    "SimpleStorageServiceS3": "from diagrams.aws.storage import SimpleStorageServiceS3",
+    "SimpleStorageServiceS3Bucket": "from diagrams.aws.storage import SimpleStorageServiceS3Bucket",
+    "SimpleStorageServiceS3BucketWithObjects": "from diagrams.aws.storage import SimpleStorageServiceS3BucketWithObjects",
+    "SimpleStorageServiceS3Object": "from diagrams.aws.storage import SimpleStorageServiceS3Object",
+    "SingleSignOn": "from diagrams.aws.security import SingleSignOn",
+    "SiteToSiteVpn": "from diagrams.aws.network import SiteToSiteVpn",
+    "SnowFamilySnowballImportExport": "from diagrams.aws.storage import SnowFamilySnowballImportExport",
+    "Snowball": "from diagrams.aws.storage import Snowball",
+    "SnowballEdge": "from diagrams.aws.storage import SnowballEdge",
+    "Snowmobile": "from diagrams.aws.storage import Snowmobile",
+    "SslPadlock": "from diagrams.aws.general import SslPadlock",
+    "State Machine": "from diagrams.aws.integration import StepFunctions",
+    "Step Functions": "from diagrams.aws.integration import StepFunctions",
+    "StepFunctions": "from diagrams.aws.integration import StepFunctions",
+    "Storage": "from diagrams.aws.storage import Storage",
+    "StorageGateway": "from diagrams.aws.storage import StorageGateway",
+    "StorageGatewayCachedVolume": "from diagrams.aws.storage import StorageGatewayCachedVolume",
+    "StorageGatewayNonCachedVolume": "from diagrams.aws.storage import StorageGatewayNonCachedVolume",
+    "StorageGatewayVirtualTapeLibrary": "from diagrams.aws.storage import StorageGatewayVirtualTapeLibrary",
+    "Sumerian": "from diagrams.aws.ar import Sumerian",
+    "Support": "from diagrams.aws.enablement import Support",
+    "SystemsManager": "from diagrams.aws.management import SystemsManager",
+    "SystemsManagerAppConfig": "from diagrams.aws.management import SystemsManagerAppConfig",
+    "SystemsManagerAutomation": "from diagrams.aws.management import SystemsManagerAutomation",
+    "SystemsManagerDocuments": "from diagrams.aws.management import SystemsManagerDocuments",
+    "SystemsManagerInventory": "from diagrams.aws.management import SystemsManagerInventory",
+    "SystemsManagerMaintenanceWindows": "from diagrams.aws.management import SystemsManagerMaintenanceWindows",
+    "SystemsManagerOpscenter": "from diagrams.aws.management import SystemsManagerOpscenter",
+    "SystemsManagerParameterStore": "from diagrams.aws.management import SystemsManagerParameterStore",
+    "SystemsManagerPatchManager": "from diagrams.aws.management import SystemsManagerPatchManager",
+    "SystemsManagerRunCommand": "from diagrams.aws.management import SystemsManagerRunCommand",
+    "SystemsManagerStateManager": "from diagrams.aws.management import SystemsManagerStateManager",
+    "TGW": "from diagrams.aws.network import TGW",
+    "TGWAttach": "from diagrams.aws.network import TGWAttach",
+    "TapeStorage": "from diagrams.aws.general import TapeStorage",
+    "TensorflowOnAWS": "from diagrams.aws.ml import TensorflowOnAWS",
+    "Textract": "from diagrams.aws.ml import Textract",
+    "ThinkboxDeadline": "from diagrams.aws.compute import ThinkboxDeadline",
+    "ThinkboxDraft": "from diagrams.aws.compute import ThinkboxDraft",
+    "ThinkboxFrost": "from diagrams.aws.compute import ThinkboxFrost",
+    "ThinkboxKrakatoa": "from diagrams.aws.compute import ThinkboxKrakatoa",
+    "ThinkboxSequoia": "from diagrams.aws.compute import ThinkboxSequoia",
+    "ThinkboxStoke": "from diagrams.aws.compute import ThinkboxStoke",
+    "ThinkboxXmesh": "from diagrams.aws.compute import ThinkboxXmesh",
+    "Timestream": "from diagrams.aws.database import Timestream",
+    "Toolkit": "from diagrams.aws.general import Toolkit",
+    "ToolsAndSdks": "from diagrams.aws.devtools import ToolsAndSdks",
+    "TraditionalServer": "from diagrams.aws.general import TraditionalServer",
+    "Transcribe": "from diagrams.aws.ml import Transcribe",
+    "TransferForSftp": "from diagrams.aws.migration import TransferForSftp",
+    "TransitGateway": "from diagrams.aws.network import TransitGateway",
+    "TransitGatewayAttachment": "from diagrams.aws.network import TransitGatewayAttachment",
+    "Translate": "from diagrams.aws.ml import Translate",
+    "TrustedAdvisor": "from diagrams.aws.management import TrustedAdvisor",
+    "TrustedAdvisorChecklist": "from diagrams.aws.management import TrustedAdvisorChecklist",
+    "TrustedAdvisorChecklistCost": "from diagrams.aws.management import TrustedAdvisorChecklistCost",
+    "TrustedAdvisorChecklistFaultTolerant": "from diagrams.aws.management import TrustedAdvisorChecklistFaultTolerant",
+    "TrustedAdvisorChecklistPerformance": "from diagrams.aws.management import TrustedAdvisorChecklistPerformance",
+    "TrustedAdvisorChecklistSecurity": "from diagrams.aws.management import TrustedAdvisorChecklistSecurity",
+    "User": "from diagrams.aws.general import User",
+    "Users": "from diagrams.aws.general import Users",
+    "VPC": "from diagrams.aws.network import VPC",
+    "VPCCustomerGateway": "from diagrams.aws.network import VPCCustomerGateway",
+    "VPCElasticNetworkAdapter": "from diagrams.aws.network import VPCElasticNetworkAdapter",
+    "VPCElasticNetworkInterface": "from diagrams.aws.network import VPCElasticNetworkInterface",
+    "VPCFlowLogs": "from diagrams.aws.network import VPCFlowLogs",
+    "VPCPeering": "from diagrams.aws.network import VPCPeering",
+    "VPCRouter": "from diagrams.aws.network import VPCRouter",
+    "VPCTrafficMirroring": "from diagrams.aws.network import VPCTrafficMirroring",
+    "Virtual Private Cloud": "from diagrams.aws.network import VPC",
+    "VmwareCloudOnAWS": "from diagrams.aws.compute import VmwareCloudOnAWS",
+    "VpnConnection": "from diagrams.aws.network import VpnConnection",
+    "VpnGateway": "from diagrams.aws.network import VpnGateway",
+    "WAF": "from diagrams.aws.security import WAF",
+    "WAFFilteringRule": "from diagrams.aws.security import WAFFilteringRule",
+    "Wavelength": "from diagrams.aws.compute import Wavelength",
+    "Web Application Firewall": "from diagrams.aws.security import WAF",
+    "WellArchitectedTool": "from diagrams.aws.management import WellArchitectedTool",
+    "Workdocs": "from diagrams.aws.enduser import Workdocs",
+    "Worklink": "from diagrams.aws.enduser import Worklink",
+    "Workmail": "from diagrams.aws.business import Workmail",
+    "Workspaces": "from diagrams.aws.enduser import Workspaces",
+    "XRay": "from diagrams.aws.devtools import XRay",
+    "_Analytics": "from diagrams.aws.analytics import _Analytics",
+    "_Ar": "from diagrams.aws.ar import _Ar",
+    "_Blockchain": "from diagrams.aws.blockchain import _Blockchain",
+    "_Business": "from diagrams.aws.business import _Business",
+    "_Compute": "from diagrams.aws.compute import _Compute",
+    "_Cost": "from diagrams.aws.cost import _Cost",
+    "_Database": "from diagrams.aws.database import _Database",
+    "_Devtools": "from diagrams.aws.devtools import _Devtools",
+    "_Enablement": "from diagrams.aws.enablement import _Enablement",
+    "_Enduser": "from diagrams.aws.enduser import _Enduser",
+    "_Engagement": "from diagrams.aws.engagement import _Engagement",
+    "_Game": "from diagrams.aws.game import _Game",
+    "_General": "from diagrams.aws.general import _General",
+    "_Integration": "from diagrams.aws.integration import _Integration",
+    "_Iot": "from diagrams.aws.iot import _Iot",
+    "_ML": "from diagrams.aws.ml import _ML",
+    "_Management": "from diagrams.aws.management import _Management",
+    "_Media": "from diagrams.aws.media import _Media",
+    "_Migration": "from diagrams.aws.migration import _Migration",
+    "_Mobile": "from diagrams.aws.mobile import _Mobile",
+    "_Network": "from diagrams.aws.network import _Network",
+    "_Quantum": "from diagrams.aws.quantum import _Quantum",
+    "_Robotics": "from diagrams.aws.robotics import _Robotics",
+    "_Satellite": "from diagrams.aws.satellite import _Satellite",
+    "_Security": "from diagrams.aws.security import _Security",
+    "_Storage": "from diagrams.aws.storage import _Storage"
+  }
+}

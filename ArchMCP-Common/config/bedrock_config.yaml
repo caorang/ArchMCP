@@ -1,0 +1,66 @@
+# AWS Bedrock Configuration
+bedrock:
+  # Default Model Configuration
+  model_id: "us.anthropic.claude-sonnet-4-20250514-v1:0"  # Claude 4.0 Sonnet (US)
+  
+  # Generation Parameters
+  temperature: 0.1
+  max_tokens: 4000
+  top_p: 0.9
+  
+  # AWS Configuration
+  region: "us-east-1"  # Change to your preferred region
+  
+  # Icon Selection Mode
+  # "llm" - Use Bedrock to extract services AND select icons (more accurate but slower/costly)
+  # "local" - Use Bedrock to extract services, then local semantic search for icons (faster, cheaper)
+  icon_selection_mode: "llm"
+  
+  # Number of top icons to return per keyword (default: 3)
+  top_k_icons: 3
+
+# PowerPoint Configuration
+powerpoint:
+  font_name: "Arial"
+  font_size: 12
+
+# Regional Model Mappings
+models:
+  # US Region Models
+  us:
+    "Claude 3.7 Sonnet": "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+    "Claude Sonnet 4": "us.anthropic.claude-sonnet-4-20250514-v1:0"
+    "Claude Opus 4.1": "us.anthropic.claude-opus-4-1-20250805-v1:0"
+    "Claude Sonnet 4.5": "anthropic.claude-sonnet-4-5-20250929-v1:0"
+  
+  # EU Region Models  
+  eu:
+    "Claude 3.7 Sonnet": "eu.anthropic.claude-3-7-sonnet-20250219-v1:0"
+    "Claude Sonnet 4": "eu.anthropic.claude-sonnet-4-20250514-v1:0"
+
+# Region Configuration
+regions:
+  us:
+    - "us-east-1"
+    - "us-west-2"
+  eu:
+    - "eu-west-3"
+    - "eu-central-1"
+
+# Retry Configuration
+retry:
+  max_attempts: 5
+  backoff_factor: 2
+  
+# Timeout Configuration
+timeout:
+  connect_timeout: 20
+  read_timeout: 120
+
+# Debug Configuration
+debug:
+  # debug trace in the UI
+  enabled: true
+  show_raw_analysis: true
+  mcp_debug: true  # Enable MCP request/response logging
+  mcp_debug_path: "debug/mcp_requests"  # Path for MCP debug logs

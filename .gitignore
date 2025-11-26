@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Debug
+debug/
+src/debug/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+ArchMCP.code-workspace
+
+# Project specific
+mcp_config_example.json
+*.back
+*.backup
+23112025-ctxt.back
+20251124.back
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (optional - uncomment if you don't want to track generated files)
+# outputs/
